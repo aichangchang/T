@@ -1,12 +1,13 @@
 <template>
   <div id="app">
-    <header-wrap></header-wrap>
-	<menu-wrap></menu-wrap>
-    <router-view v-wechat-title="$route.meta.title"/>
-	<footer-wrap></footer-wrap>
+		<div class="content">
+			<header-wrap></header-wrap>
+			<menu-wrap></menu-wrap>
+			<router-view v-wechat-title="$route.meta.title"/>
+			<footer-wrap></footer-wrap>			
+		</div>
   </div>
-</template>
-
+</template> 
 <script>
 	import HeaderWrap from '@/components/header.vue'
 	import FooterWrap from '@/components/footer.vue'
@@ -40,5 +41,10 @@ a:hover,a:active{text-decoration:underline;color:#f60;}
 #app {
   width: 100%;
   height: 100%;
+}
+.content{
+	width: 960px;
+	height:auto;
+	margin: 0 auto;
 }
 </style>

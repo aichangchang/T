@@ -5,5 +5,5 @@
 <script>
 </script>
 
-<style>
+<style lang="less" scoped="scoped">
 </style>
