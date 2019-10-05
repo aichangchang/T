@@ -2,7 +2,6 @@
   <div id="app">
 		<div class="content">
 			<header-wrap></header-wrap>
-			<menu-wrap></menu-wrap>
 			<router-view v-wechat-title="$route.meta.title"/>
 			<footer-wrap></footer-wrap>			
 		</div>
@@ -11,13 +10,12 @@
 <script>
 	import HeaderWrap from '@/components/header.vue'
 	import FooterWrap from '@/components/footer.vue'
-	import MenuWrap from '@/components/menu.vue'
+	
 export default {
   name: 'App',
   components:{
     HeaderWrap,
-	FooterWrap,
-	MenuWrap
+	FooterWrap
   }
 }
 </script>
@@ -27,7 +25,8 @@ export default {
 *{padding:0;margin:0;box-sizing:border-box;}
 div,dl,dt,dd,form,h1,h2,h3,h4,h5,h6,img,ol,ul,li,table,th,td,p,span,a{border:0;}
 img,input{border:none;vertical-align:middle;}
-body{font-family:Tahoma,Arial,Helvetica,"微软雅黑";font-size:14px;text-align:left;background:#FFF;color:#333;}
+body{font-family:Tahoma,Arial,Helvetica,"微软雅黑";font-size:14px;text-align:left;background:#FFF;color:#333;
+    background-color: #f5f6f6;}
 html{overflow-y:scroll;}
 ul,ol{list-style-type:none;}
 th,td,input{font-size:12px;}
