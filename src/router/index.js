@@ -1,15 +1,49 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Index from '@/components/index.vue'
+import Home from '@/components/home.vue'
+import AboutUs from '@/components/aboutus.vue'
+import Products from '@/components/products.vue'
+import Contact from '@/components/contact.vue'
 Vue.use(Router)
-
+const originalPush = Router.prototype.push;
+Router.prototype.push = function push(location) {
+  return originalPush.call(this, location).catch(err => err)
+};
 export default new Router({
   routes: [{
     path: '/',
-    name: 'Index',
-    component: Index,
+    name: 'Home',
+    component: Home,
     meta: {
-      title: "首页"
+      title: "HOME"
+    }
+  },{
+    path: '/home',
+    name: 'Home',
+    component: Home,
+    meta: {
+      title: "HOME"
+    }
+  },{
+    path: '/aboutus',
+    name: 'AboutUs',
+    component: AboutUs,
+    meta: {
+      title: "About Us"
+    }
+  },{
+    path: '/products',
+    name: 'Products',
+    component: Products,
+    meta: {
+      title: "Products"
+    }
+  },{
+    path: '/contact',
+    name: 'Contact',
+    component: Contact,
+    meta: {
+      title: "Contact"
     }
   }]
 })
