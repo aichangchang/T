@@ -1,0 +1,5 @@
+JSQ-3 Mechanical Preset Counter
+
+
+Technical Specificatons
+Available for either single-stage or two-stage valve closure. Sets a predetermined volume and controls a mechanically linked valve.

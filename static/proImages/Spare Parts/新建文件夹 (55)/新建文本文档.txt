@@ -1,0 +1,5 @@
+NS-3 Nozzle Swivels
+
+
+Technical Specificatons
+NS-3 Swivels used for XIDE-120 Automatic Nozzle.

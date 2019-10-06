@@ -1,0 +1,13 @@
+PS-100 Encoder
+
+
+Technical Specificatons
+ 
+
+Voltage (V+): +8¡«24VDC 
+
+Current:26mA typical 
+
+100 pulses per encoder revolution 
+
+Operating temperature range: -40¡æ¡«+85¡æ (-40¨H¡«185¨H) 

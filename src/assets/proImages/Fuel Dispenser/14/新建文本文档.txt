@@ -1,0 +1,21 @@
+TECHNICAL SPECIFICATIONS
+
+Accuracy:¡À0.3%,1.5%
+Frequency:50Hz¡À1Hz/60Hz¡À1Hz
+Delivery Rate:5-50L/min,5-90L/min
+Rating Power:0.75KW,1KW
+Measurable Minimum:0.01L
+Ambient Humidity:45% to 85%
+Noise:¡Ü80dB(A)
+Ambient Temperature:-40 to +60¡æ
+Inlet Vacuum:¡Ý0.06MPa
+
+Anti-Explosive ID:Ex ¢ò 2 G Ex dem
+Anti-Explosive Certificate Number:
+Nemko 08ATEX4321Q
+Totalizer Range:0.00 to 99999999999.99
+Range of Price:0.01 to 999.99
+License of Manufacturing Metric
+Instrument:R117/2007-B-CN2-2019.01
+Preset Min Value:0.01 to 0.99L
+Power Supply: AC380V¡À20% or AC220V¡À20%

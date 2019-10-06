@@ -1,0 +1,19 @@
+JSQ-2/E Electronic Register
+
+
+Technical Specificatons
+JSQ-2/E Electronic Register Systems adopts the modern high-performance ARM microprocess or high operation speed,low power consumption,stable performance and resource-rich interface.Intrinsically safe designed,it is more stable and reliable with the strong functions. JSQ-2/E Electronic Register Systems is the ideal substitute products for the staditional mechanical register with advantage of high-precision measurement,stable performance,widely installed on all kind of flow meters,with the LCD display,easy&friendly operation,widely used in stock terminal,Oil tank truck,service station,boatyard,etc.
+
+
+
+Application:
+
+1、Matching with the variety pulser to achieve the measurement of high-precision large flow. 
+
+2、Flow rate compensation and temperature compensation for choice to improve the measurement precision. 
+
+3、Free refueling and preset refueling for option 
+
+4、With the automatically adjustment function 
+
+5、Equitpped with printer to print the transaction records.it equitppers,makes the operation very direct-viewing. 

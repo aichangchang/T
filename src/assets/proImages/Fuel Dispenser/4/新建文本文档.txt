@@ -1,0 +1,56 @@
+Expedition Series with oil recovery system
+JDK50E222(2HOSES 2Pumps)
+External Dimension£º1110x490x2150(mm)
+JDK50E212 (2HOSES 1Pump)
+External Dimension£º1110x490x2150(mm)
+
+
+
+Technical Specificatons
+Components Installed(standard): 
+
+1.LanFeng Electronic Unit 
+
+2.Flowmeter. 
+
+3.Pump. 
+
+4.Automatic Nozzle. 
+
+5. Ex-Motor 
+
+ 
+
+Technical Specifications: 
+
+1.Accuracy: ¡À0.3% 
+
+2.Frequency: 50HZ¡À1HZ/60HZ¡À1HZ 
+
+3.Delivery Rate: 5 to 50L/min 
+
+4.Rating Power: 0.75KW 
+
+5.Measurbale Minimum: 5L 
+
+6.Ambient Humidity: 30% to 90% 
+
+7.Noise: ¡Ü80dB(A) 
+
+8.Ambient Temperature: -40¡æ to +60¡æ 
+
+9.Inlet Vacuum: ¡Ý0.06MPa 
+
+10.Anti-Explosive ID: Exdm[ib]ib ¢ò AT3  
+
+11.Anti-Explosive Certificate Number:CE011154 CE011155 CE011156 CE011157 
+
+12.Totalizer Range:0.00 to 99999999999.99 
+
+14.Range of Price: 0.01 to 99999 
+
+15.License of Manufacturing Metric Instrument:ZheZi00000625 
+
+16.Preset Min Value: 0.01 to 0.99L 
+
+17.Power Supply: AC380V¡À20% or AC220V¡À20% 

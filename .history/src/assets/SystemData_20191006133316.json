@@ -1,0 +1,21 @@
+{
+  "CentralControlSystem":
+    {
+      "src":"./proImages/System/CentralControlSystem/CentralControlSystem.jpg.jpg",
+      "src1":"./proImages/System/CentralControlSystem/20140425155205_271.jpg",
+      "src2":"./proImages/System/CentralControlSystem/20140425155216_167.jpg"
+    },
+  "TankMonitorSystem":
+    {
+      "src":"./proImages/System/TankMonitorSystem/TankMonitorSystem.jpg",
+      "src1":"./proImages/System/TankMonitorSystem/20140425155650_314.jpg",
+      "src2":"./proImages/System/TankMonitorSystem/20140425155658_965.jpg",
+      "src3":"./proImages/System/TankMonitorSystem/20140425155706_461.jpg",
+      "src4":"./proImages/System/TankMonitorSystem/20140425155714_556.jpg",
+      "src5":"./proImages/System/TankMonitorSystem/20140425155722_266.jpg",
+      "src6":"./proImages/System/TankMonitorSystem/20140425155730_703.jpg",
+      "src7":"./proImages/System/TankMonitorSystem/20140425155738_801.jpg",
+      "src8":"./proImages/System/TankMonitorSystem/20140425155746_932.jpg",
+      "src9":"./proImages/System/TankMonitorSystem/20140425155754_942.jpg"
+    }
+}
