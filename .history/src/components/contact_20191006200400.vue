@@ -9,15 +9,7 @@
 				</div>
 			</div>
 			<div class="slider">
-				<p class="tip">
-          <span @click="toHome">
-              Home
-          </span>
-          <span>»</span>
-          <span @click="toAboutus">
-            About Us
-          </span>
-        </p>
+				<p class="tip">Home » About Us</p>
 				<img class="b1" src="../assets/images/6.jpg" alt="">
 				<div class="desc">
 					<p class="t1">Zhejiang Lanfeng Machine Co., Ltd</p>
@@ -73,15 +65,7 @@
 			MenuWrap,
 			FollowUs,
 			ContactCardWrap
-    },
-    methods:{
-			toHome:function(){
-				this.$router.push('/home')
-			},
-			toContact:function(){
-				this.$router.push('/contact')
-      }
-    }
+		}
 	}
 </script>
 

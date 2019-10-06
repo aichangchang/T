@@ -9,15 +9,7 @@
 				</div>
 			</div>
 			<div class="slider">
-				<p class="tip">
-          <span @click="toHome">
-              Home
-            </span>
-            <span>»</span>
-            <span @click="toAboutus">
-              About Us
-            </span>
-        </p>
+				<p class="tip">Home » About Us</p>
 				<img src="../assets/images/2.jpg" alt="">
 				<div class="txt">
 					<p>Zhejiang Lanfeng Machine Co., Ltd is one of the large-scale manufacturers specialized in developing and producing fuel dispenser ,gas dispenser and all components , the factory occupying total area of 10382 square meters , construction area 8818 square meters , possessing various precise processing equipment and production line 235(sets) formed the yearly production 30,000 fuel dispenser, 100,000sets of various fuel dispenser parts and LPG parts ,provides the whole fuel dispenser and the necessary parts to domestic and international fuel dispenser manufactory and gas station for a long time.</p>
@@ -41,21 +33,14 @@
 			MenuWrap,
 			FollowUs,
 			ContactCardWrap
-    },
-    methods:{
-			toHome:function(){
-				this.$router.push('/home')
-			},
-			toAboutus:function(){
-				this.$router.push('/aboutus')
-      }
-    }
+		}
 	}
 </script>
 
 <style lang="less" scoped="scoped">
 	.main {
 		width: 100%;
+
 		.menu-wrap {
 			float: left;
 			width: 184px;

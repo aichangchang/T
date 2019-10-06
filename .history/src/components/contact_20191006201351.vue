@@ -12,11 +12,11 @@
 				<p class="tip">
           <span @click="toHome">
               Home
-          </span>
-          <span>»</span>
-          <span @click="toAboutus">
-            About Us
-          </span>
+            </span>
+            <span>»</span>
+            <span @click="toAboutus">
+              About Us
+            </span>
         </p>
 				<img class="b1" src="../assets/images/6.jpg" alt="">
 				<div class="desc">
