@@ -7,7 +7,10 @@ import until from './until'
 Vue.use(until)
 import VueWechatTitle from 'vue-wechat-title'
 Vue.use(VueWechatTitle)
+import  vueSwiper from 'vue-awesome-swiper'//根据package.json中的value导入
+import 'swiper/dist/css/swiper.css'//引入样式
 
+Vue.use(vueSwiper)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
