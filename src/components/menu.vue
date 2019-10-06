@@ -77,7 +77,9 @@
 				background: url(../assets/images/li.jpg) no-repeat left top;
 				background-size: 100% 100%;
 			}
-			
+			li:hover{
+				background: #db261f;
+			}
 		}
 	}
 </style>
