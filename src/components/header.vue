@@ -19,6 +19,8 @@
 		width: 100%;
 		height: 101px;
 		overflow: hidden;
+		background: #fff;
+		margin-bottom: 15px;
 		img{
 			display: block;
 			width: 378px;
