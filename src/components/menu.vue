@@ -42,8 +42,7 @@
 
 <style lang="less" scoped="scoped">
 	.menu {
-		float: left;
-		width: 184px;
+		width: 100%;
 		overflow: hidden;
 
 		.menu-item {

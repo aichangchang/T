@@ -1,7 +1,10 @@
 <template>
 	<div class="main">
 		<div class="banner">
-			<menu-wrap></menu-wrap>
+			<div class="menu">
+				<menu-wrap></menu-wrap>
+				
+			</div>
 			<div class="slider">
 				home
 			</div>
@@ -21,7 +24,11 @@
 	.main {
 		width: 100%;
 		overflow: hidden;
-
+		.menu{
+			float: left;
+			width: 184px;
+			overflow: hidden;
+		}
 		.banner {
 			width: 100%;
 			overflow: hidden;
