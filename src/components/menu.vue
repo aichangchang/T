@@ -45,7 +45,7 @@
 				this.$router.push('/home')
 			},
 			toContact: function() {
-				this.$router.push('/aboutus')
+				this.$router.push('/contact')
 			},
 			productsList: function() {
 

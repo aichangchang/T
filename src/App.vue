@@ -64,7 +64,7 @@
 		text-align: left;
 		background: #FFF;
 		color: #333;
-		background-color: #fff;
+		background-color: #f5f6f6;
 	}
 
 	html {
