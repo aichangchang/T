@@ -9,9 +9,14 @@
 				About Us
 				<i></i>
 			</li>
-			<li @click="toProducts">
+			<li @mouseenter="flag = true" @mouseleave="flag = false">
 				Products
 				<i></i>
+				<div v-if="flag" class="productsList">
+					<p>Fuel Dispenser</p>
+					<p>Spare Parts</p>
+					<p>System</p>
+				</div>
 			</li>
 			<li @click="toContact">
 				Contact
@@ -22,20 +27,29 @@
 </template>
 
 <script>
-	export default{
-		methods:{
-			toHome:function(){
+	export default {
+		data() {
+			return {
+				flag: false
+
+			}
+		},
+		methods: {
+			toHome: function() {
 				this.$router.push('/home')
 			},
-			toAboutUs:function(){
+			toAboutUs: function() {
 				this.$router.push('/aboutus')
 			},
-			toProducts:function(){
+			toProducts: function() {
 				this.$router.push('/home')
 			},
-			toContact:function(){
+			toContact: function() {
 				this.$router.push('/aboutus')
 			},
+			productsList: function() {
+
+			}
 		}
 	}
 </script>
@@ -43,8 +57,6 @@
 <style lang="less" scoped="scoped">
 	.menu {
 		width: 100%;
-		overflow: hidden;
-
 		.menu-item {
 			width: 100%;
 			background-color: #454545;
@@ -76,8 +88,26 @@
 				background: url(../assets/images/li.jpg) no-repeat left top;
 				background-size: 100% 100%;
 			}
-			li:hover{
+
+			li:hover {
 				background: #db261f;
+			}
+
+			.productsList {
+				position: absolute;
+				left: 184px;
+				top: 0;
+				width: 100%;
+				z-index: 99999999;
+				background: #db261f;
+				padding: 10px 15px;
+				p {
+					line-height: 30px;
+					width: 100%;
+					font-size: 12px;
+					padding-left: 20px;
+					color: #fff;
+				}
 			}
 		}
 	}

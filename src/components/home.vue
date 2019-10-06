@@ -1,9 +1,9 @@
 <template>
 	<div class="main">
-		<div class="banner">
-			<div class="menu">
+		<div class="banner clear">
+			<div class="menu-wrap">
 				<menu-wrap></menu-wrap>
-
+				<follow-us></follow-us>
 			</div>
 			<div class="slider">
 				<swiper :options="swiperOption" class="swiper-wrap"  ref="mySwiper" v-if="banner.length!=0">
@@ -19,9 +19,11 @@
 </template>
 <script>
 	import MenuWrap from '@/components/menu.vue'
+	import FollowUs from '@/components/followus.vue'
 	export default {
 		components: {
-			MenuWrap
+			MenuWrap,
+			FollowUs
 		},
 		data() {
 			const that = this;
@@ -80,24 +82,19 @@
 <style lang="less" scoped="scoped">
 	.main {
 		width: 100%;
-		overflow: hidden;
-
-		.menu {
-			float: left;
-			width: 184px;
-			overflow: hidden;
-		}
 
 		.banner {
 			width: 100%;
-			overflow: hidden;
-
+			position: relative;
+			.menu-wrap {
+				float: left;
+				width: 184px;
+			}
 			.slider {
 				float: right;
 				width: 766px;
 				height: 405px;
 				overflow: hidden;
-
 				.swiper-slide {
 					width: 765px;
 					height: 404px;
