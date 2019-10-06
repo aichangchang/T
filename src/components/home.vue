@@ -3,15 +3,17 @@
 		<div class="banner clear">
 			<div class="menu-wrap">
 				<menu-wrap></menu-wrap>
-				<follow-us></follow-us>
+				<div style="margin-top: 130px;">
+					<follow-us></follow-us>
+				</div>
 			</div>
 			<div class="slider">
 				<swiper :options="swiperOption" class="swiper-wrap" ref="mySwiper">
 					<swiper-slide v-for="(item,index) in banner" :key="index">
 						<img :src="item" alt="" />
 					</swiper-slide>
-					<div class="swiper-button-prev" slot="button-prev"></div>
-					<div class="swiper-button-next" slot="button-next"></div>
+					<div class="swiper-button-prev swiper-button-prev1 swiper-button1" slot="button-prev"></div>
+					<div class="swiper-button-next swiper-button-next1 swiper-button1" slot="button-next"></div>
 				</swiper>
 			</div>
 		</div>
@@ -24,8 +26,8 @@
 						<p>{{item.txt}}</p>
 					</div>
 				</swiper-slide>
-				<div class="swiper-button-prev" slot="button-prev"></div>
-				<div class="swiper-button-next" slot="button-next"></div>
+				<div class="swiper-button-prev swiper-button-prev2 swiper-button2" slot="button-prev"></div>
+				<div class="swiper-button-next swiper-button-next2 swiper-button2" slot="button-next"></div>
 			</swiper>
 		</div>
 		<div class="can clear">
@@ -38,7 +40,11 @@
 					<p></p>
 				</div>
 				<img class="img1" src="../assets/images/index_r22_c15.jpg" alt="">
-				<p class="des">Zhejiang Lanfeng Machine Co., Ltd is one of the large-scale manufacturers specialized in developing and producing fuel dispenser ,gas dispenser and all components , the factory occupying total area of 10382 square meters , construction area 8818 square meters , possessing various precise processing equipment and production line 235(sets) formed the yearly production 30,000 fuel dispenser, 100,000sets of various fuel dispenser parts and LPG parts.</p>
+				<p class="des">Zhejiang Lanfeng Machine Co., Ltd is one of the large-scale manufacturers specialized in developing
+					and producing fuel dispenser ,gas dispenser and all components , the factory occupying total area of 10382 square
+					meters , construction area 8818 square meters , possessing various precise processing equipment and production
+					line 235(sets) formed the yearly production 30,000 fuel dispenser, 100,000sets of various fuel dispenser parts and
+					LPG parts.</p>
 			</div>
 			<div class="aboutus-wrap" style="margin: 0;">
 				<div class="tit">
@@ -70,27 +76,27 @@
 				],
 				list: [{
 					src: require('../assets/images/20140320162221_516.jpg'),
-					tit: 'Economic Series',
+					tit: '1Economic Series',
 					txt: 'JDK50C222(2HOSES 2Pumps)External Dimension：1120x460x2100(mm)JDK50C212 (2HOSES 1Pump)External Dimension：1120x460x2100(mm)'
 				}, {
-					src: require('../assets/images/20140320162221_516.jpg'),
-					tit: 'Economic Series',
+					src: require('../assets/images/20140322140411_904.jpg'),
+					tit: '2Economic Series',
 					txt: 'JDK50C222(2HOSES 2Pumps)External Dimension：1120x460x2100(mm)JDK50C212 (2HOSES 1Pump)External Dimension：1120x460x2100(mm)'
 				}, {
-					src: require('../assets/images/20140320162221_516.jpg'),
-					tit: 'Economic Series',
+					src: require('../assets/images/20140322145250_511.jpg'),
+					tit: '3Economic Series',
 					txt: 'JDK50C222(2HOSES 2Pumps)External Dimension：1120x460x2100(mm)JDK50C212 (2HOSES 1Pump)External Dimension：1120x460x2100(mm)'
 				}, {
-					src: require('../assets/images/20140320162221_516.jpg'),
-					tit: 'Economic Series',
+					src: require('../assets/images/20140322154503_913.jpg'),
+					tit: '4Economic Series',
 					txt: 'JDK50C222(2HOSES 2Pumps)External Dimension：1120x460x2100(mm)JDK50C212 (2HOSES 1Pump)External Dimension：1120x460x2100(mm)'
 				}, {
-					src: require('../assets/images/20140320162221_516.jpg'),
-					tit: 'Economic Series',
+					src: require('../assets/images/20140322154611_661.jpg'),
+					tit: '5Economic Series',
 					txt: 'JDK50C222(2HOSES 2Pumps)External Dimension：1120x460x2100(mm)JDK50C212 (2HOSES 1Pump)External Dimension：1120x460x2100(mm)'
 				}, {
-					src: require('../assets/images/20140320162221_516.jpg'),
-					tit: 'Economic Series',
+					src: require('../assets/images/20140322155020_340.jpg'),
+					tit: '6Economic Series',
 					txt: 'JDK50C222(2HOSES 2Pumps)External Dimension：1120x460x2100(mm)JDK50C212 (2HOSES 1Pump)External Dimension：1120x460x2100(mm)'
 				}],
 				swiperOption: {
@@ -130,6 +136,7 @@
 					},
 				},
 				swiperOption2: {
+					loopedSlides: 3,
 					//循环
 					loop: true,
 					//设定初始化时slide的索引
@@ -147,17 +154,13 @@
 					direction: "horizontal",
 					//小手掌抓取滑动
 					grabCursor: false,
-					slidesPerView: 3.5,
 					centeredSlides: false,
 					spaceBetween: 0,
-					pagination: {
-						el: '.swiper-pagination',
-						type: 'fraction'
-					},
 					navigation: {
 						nextEl: '.swiper-button-next',
 						prevEl: '.swiper-button-prev'
-					}
+					},
+					slidesPerView: 3,
 				}
 			};
 		},
@@ -187,12 +190,51 @@
 				.swiper-slide {
 					width: 765px;
 					height: 404px;
+
 					img {
 						width: 100%;
 						height: 100%;
 						display: block;
 						z-index: 999;
 					}
+				}
+
+				.swiper-button1 {
+					width: 40px;
+					height: 100px;
+					background-repeat: no-repeat;
+					outline: 0;
+					cursor: pointer;
+					filter: alpha(opacity=30);
+					opacity: .3;
+				}
+
+				.swiper-button-prev1 {
+					left: 0;
+					background-image: url(../assets/images/foucs.png);
+					background-position: 0 0;
+					background-size: 218px 249px;
+					-webkit-transition: all .3s ease-out;
+					transition: all .3s ease-out;
+				}
+
+				.swiper-button-prev1:hover {
+					filter: alpha(opacity=80);
+					opacity: .8;
+				}
+
+				.swiper-button-next1 {
+					right: 0;
+					background-image: url(../assets/images/foucs.png);
+					background-position: -50px 0;
+					background-size: 218px 249px;
+					-webkit-transition: all .3s ease-out;
+					transition: all .3s ease-out;
+				}
+
+				.swiper-button-next1:hover {
+					filter: alpha(opacity=80);
+					opacity: .8;
 				}
 			}
 		}
@@ -208,10 +250,34 @@
 				height: 100%;
 			}
 
+			.swiper-button2 {
+				width: 24px;
+				height: 27px;
+				background-repeat: no-repeat;
+				outline: 0;
+				cursor: pointer;
+				background-size: 36px 260px;
+			}
+
+			.swiper-button-prev2 {
+				background-image: url(../assets/images/allbgs.png);
+				background-position: 0 -197px;
+			}
+
+			.swiper-button-prev2:hover {}
+
+			.swiper-button-next2 {
+				background-image: url(../assets/images/allbgs.png);
+				background-position: 0 -170px;
+			}
+
+			.swiper-button-next2:hover {}
+
 			.swiper-slide {
 				width: 235px;
 				height: 100%;
 				padding-top: 30px;
+				padding-left: 20px;
 
 				img {
 					width: 111px;
@@ -287,18 +353,21 @@
 						background-repeat: no-repeat;
 					}
 				}
-				.img1{
+
+				.img1 {
 					width: 100%;
 					height: 98px;
 					display: block;
 				}
-				.des{
+
+				.des {
 					width: 100%;
 					padding: 15px;
 					line-height: 18px;
 					font-size: 12px;
 				}
-				.img2{
+
+				.img2 {
 					width: 100%;
 					height: 100%;
 					display: block;
