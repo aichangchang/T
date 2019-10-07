@@ -134,4 +134,43 @@
 		height: auto;
 		margin: 0 auto;
 	}
+	// 分页
+	.pagination {
+		width: 100%;
+		margin-top: 30px;
+		text-align: center;
+		li {
+			display: inline-block;
+			margin: 0 2px;
+			height: 26px;
+			line-height: 24px;
+			text-align: center;
+			width: 26px;
+			border: 1px #cccccc solid;
+			color: #666;
+			font-size: 12px;
+			a{
+				display: block;
+				width: 100%;
+				height: 100%;
+				outline: 0;
+			}
+			a:hover{
+				text-decoration: none;
+				color: #ffffff;
+			}
+		}
+		li:hover{
+			text-decoration: none;
+			border-color: #db261f;
+			background-color: #db261f;
+			color: #ffffff;
+		}
+		.active{
+			text-decoration: none;
+			border-color: #db261f;
+			background-color: #db261f;
+			color: #ffffff;
+		}
+	}
 </style>

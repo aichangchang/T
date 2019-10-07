@@ -6,7 +6,18 @@
 				"static/proImages/SpareParts/1/20140404153636_862.jpg",
 				"static/proImages/SpareParts/1/微信图片_20190921160303.png"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"DYB Electric Transfer Pump",
+				"Technical Specificatons",
+				"For fueling diesel, Kerosene, not for gasoline ",
+				"Mechanical seal that guarantees constant reliability, even in low temperatures.",
+				"Cast-iron pump casing, treated against corrosion and paint-finished.",
+				"Vane pump with steel rotor",
+				"Bypass valve built in.",
+				"In-built 100-micron filter, easily accessible for cleaning.",
+				"Induction motor with aluminium casing. Grade of protection: IP54.",
+				"Continuous running."
+			],
 			"id": "Spare Parts",
 			"title": "DYB Electric Transfer Pump",
 			"proSrc": "static/proImages/SpareParts/1/DYB Electric Transfer Pump.jpg"
@@ -15,7 +26,18 @@
 				"static/proImages/SpareParts/2/Alloy ManHole.jpg",
 				"static/proImages/SpareParts/2/微信图片_20190921160627.png"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"Alloy ManHole",
+				"Technical Specificatons",
+				"Manhole is installed on the top of the tank, built Pressure&Vacuum Vent and Emergency Vent.",
+				"Advantage：",
+				"· Pressure&vacuum vent,When inside pressure higher 6～8KPa or under 2～3KPa than the outside,will be open to balance the different pressure;when the different pressure less than -2～6KPa,the P/V vent will be closed to keep the product not voiatilized",
+				"· Automatic sealing of P/Y vent in a roll over situation prevents dangerous and costly spillage",
+				"· when the inside pressure is higher 21～32KPa than the outside,emergency vent will be open automatic to keep tank safe.The vent capacity is 7000m3/h",
+				"· Two-stage opening allows safe release of residual compartment pressure before fully opening the fill cap.",
+				"· Easy maintenance,convenience,safety",
+				"· Working pressure: 0.6MPa"
+			],
 			"id": "Spare Parts",
 			"title": "Alloy ManHole",
 			"proSrc": "static/proImages/SpareParts/2/Alloy ManHole.jpg"
@@ -24,16 +46,24 @@
 				"static/proImages/SpareParts/3/DYB70-AC115 Electric Transfer Pump Explosion Proof.jpg",
 				"static/proImages/SpareParts/3/微信图片_20190921160452.png"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"DYB70-AC115 Electric Transfer Pump Explosion Proof",
+				"Technical Specificatons",
+				"DYB70-AC115 is with UL listed explosion proof motor."
+			],
 			"id": "Spare Parts",
 			"title": "DYB70-AC115 Electric Transfer Pump Explosion Proof",
 			"proSrc": "static/proImages/SpareParts/3/DYB70-AC115 Electric Transfer Pump Explosion Proof.jpg"
 	},{
 			"src": [
 				"static/proImages/SpareParts/4/ETP-××A Electric Transfer Pump Unit.jpg",
-				"static/proImages/SpareParts/4/微信图片_20190921160836.jpg"
+				"static/proImages/SpareParts/4/微信图片_20190921160836.png"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"ETP-××A Electric Transfer Pump Unit",
+				"Technical Specificatons",
+				"It is easy to connect to 1\" quick coupling of the drum or tank, with or without flow meter."
+			],
 			"id": "Spare Parts",
 			"title": "ETP-××A Electric Transfer Pump Unit",
 			"proSrc": "static/proImages/SpareParts/4/ETP-××A Electric Transfer Pump Unit.jpg"
@@ -42,7 +72,11 @@
 				"static/proImages/SpareParts/5/ETP-××B Electric Transfer Pump Unit.jpg",
 				"static/proImages/SpareParts/5/微信图片_20190921160943.png"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"ETP-××B Electric Transfer Pump Unit",
+				"Technical Specificatons",
+				"ETP-B Series Electric Transfer Pump Unit is improved from ETP-××A series,with completely close metal case,andswitch,nozzle holder,automatic nozzle,also manual nozzle,inlet hose or option."
+			],
 			"id": "Spare Parts",
 			"title": "ETP-××B Electric Transfer Pump Unit",
 			"proSrc": "static/proImages/SpareParts/5/ETP-××B Electric Transfer Pump Unit.jpg"
@@ -50,16 +84,24 @@
 			"src": [
 				"static/proImages/SpareParts/6/ETP-15 Mobile Oil Dispenser.jpg"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"ETP-15 Mobile Oil Dispenser",
+				"Technical Specificatons",
+				"ETP-15 Mobile Oil Dispenser, together with 90L oil tank, electric gear oil pump, oil nozlle with LCD meter and oil indicator easy to show the show the level of oil in tank, with advantage of compact, convenient, mobile,etc."
+			],
 			"id": "Spare Parts",
 			"title": "ETP-15 Mobile Oil Dispenser",
 			"proSrc": "static/proImages/SpareParts/6/ETP-15 Mobile Oil Dispenser.jpg"
 	},{
 			"src": [
 				"static/proImages/SpareParts/7/FM-30L Flow Meter.jpg",
-				"static/proImages/SpareParts/7/微信图片_20190921161149.jpg"
+				"static/proImages/SpareParts/7/微信图片_20190921161149.png"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"FM-30L Flow Meter",
+				"Technical Specificatons",
+				"FM-30 Flow Meter is to measure the exact quantity of the dispensed fuel.They are designed for non-commercial use only.These flow-meters are reliable,inexpensive,easy to install and simple to calibrate on the workplace.Aluminium metering chamber,1\" thread connection.Mechanical readout device with rotating wheels.Subtotals can be set to zero,total readouts can not."
+			],
 			"id": "Spare Parts",
 			"title": "FM-30L Flow Meter",
 			"proSrc": "static/proImages/SpareParts/7/FM-30L Flow Meter.jpg"
@@ -67,7 +109,11 @@
 			"src": [
 				"static/proImages/SpareParts/8/Gear Plate.jpg"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"Gear Plate",
+				"Technical Specificatons",
+				"The gear plate is installed in the base of the mechanical counter to convert meter rotary shaft output to an engineered unit of measure.Changing units of measure is simple since all conversions are made with easily accessible gears."
+			],
 			"id": "Spare Parts",
 			"title": "Gear Plate",
 			"proSrc": "static/proImages/SpareParts/8/Gear Plate.jpg"
@@ -76,7 +122,10 @@
 				"static/proImages/SpareParts/9/GL-2 Filter Holder.jpg",
 				"static/proImages/SpareParts/9/微信图片_20190921161416.jpg"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"GL-2 Filter Holder",
+				"Technical Specificatons"
+			],
 			"id": "Spare Parts",
 			"title": "GL-2 Filter Holder",
 			"proSrc": "static/proImages/SpareParts/9/GL-2 Filter Holder.jpg"
@@ -85,7 +134,11 @@
 				"static/proImages/SpareParts/10/GL-4 Filter.jpg",
 				"static/proImages/SpareParts/10/微信图片_20190921161516.png"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"GL-4 Filter",
+				"Technical Specificatons",
+				"Stainless steel strainer,reuse after cleaning."
+			],
 			"id": "Spare Parts",
 			"title": "GL-4 Filter",
 			"proSrc": "static/proImages/SpareParts/10/GL-4 Filter.jpg"
@@ -96,7 +149,11 @@
 				"static/proImages/SpareParts/11/20140404143728_146.jpg",
 				"static/proImages/SpareParts/11/微信图片_20190921161634.png"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"HS-2B Swivel",
+				"Technical Specificatons",
+				"HS-2B Unrotary Swivels Used for connecting the nozzle and the hose."
+			],
 			"id": "Spare Parts",
 			"title": "HS-2B Swivel",
 			"proSrc": "static/proImages/SpareParts/11/HS-2B Swivel.jpg"
@@ -105,7 +162,10 @@
 				"static/proImages/SpareParts/12/J60-A Nozzle.jpg",
 				"static/proImages/SpareParts/12/微信图片_20190921161830.jpg"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"J60-A Nozzle",
+				"Technical Specificatons"
+			],
 			"id": "Spare Parts",
 			"title": "J60-A Nozzle",
 			"proSrc": "static/proImages/SpareParts/12/J60-A Nozzle.jpg"
@@ -114,7 +174,11 @@
 				"static/proImages/SpareParts/13/J80-M Meter Nozzle.jpg",
 				"static/proImages/SpareParts/13/微信图片_20190921162025.png"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"J80-M Meter Nozzle",
+				"Technical Specificatons",
+				"J80-M Meter Nozzle is installed JYM/L-1 electronic oval gear meter with LCDdisplay on base of J80-A manual nozzle,with advantage of high accuracy up to±0.5%,low weight,easy use and 5 digital Sub-total and 8 digital Non-resettable totalizer,etc."
+			],
 			"id": "Spare Parts",
 			"title": "J80-M Meter Nozzle",
 			"proSrc": "static/proImages/SpareParts/13/J80-M Meter Nozzle.jpg"
@@ -123,7 +187,17 @@
 				"static/proImages/SpareParts/14/JSQ-2 E Electronic Register.jpg",
 				"static/proImages/SpareParts/14/微信图片_20190921162151.png"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"JSQ-2/E Electronic Register",
+				"Technical Specificatons",
+				"JSQ-2/E Electronic Register Systems adopts the modern high-performance ARM microprocess or high operation speed,low power consumption,stable performance and resource-rich interface.Intrinsically safe designed,it is more stable and reliable with the strong functions. JSQ-2/E Electronic Register Systems is the ideal substitute products for the staditional mechanical register with advantage of high-precision measurement,stable performance,widely installed on all kind of flow meters,with the LCD display,easy&friendly operation,widely used in stock terminal,Oil tank truck,service station,boatyard,etc.",
+				"Application:",
+				"1、Matching with the variety pulser to achieve the measurement of high-precision large flow. ",
+				"2、Flow rate compensation and temperature compensation for choice to improve the measurement precision. ",
+				"3、Free refueling and preset refueling for option ",
+				"4、With the automatically adjustment function", 
+				"5、Equitpped with printer to print the transaction records.it equitppers,makes the operation very direct-viewing. "
+			],
 			"id": "Spare Parts",
 			"title": "JSQ-2 E Electronic Register",
 			"proSrc": "static/proImages/SpareParts/14/JSQ-2 E Electronic Register.jpg"
@@ -131,7 +205,11 @@
 			"src": [
 				"static/proImages/SpareParts/15/JSQ-4 Mechanical Counter with Ticket Printer.jpg"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"JSQ-4 Mechanical Counter with Ticket Printer",
+				"Technical Specificatons",
+				"Printer generates an imprinted record of the tran saction which is idea."
+			],
 			"id": "Spare Parts",
 			"title": "JSQ-4 Mechanical Counter with Ticket Printer",
 			"proSrc": "static/proImages/SpareParts/15/JSQ-4 Mechanical Counter with Ticket Printer.jpg"
@@ -140,7 +218,23 @@
 				"static/proImages/SpareParts/16/DYB50-DC12B Electric Transfer Pump,Explosion Proo.jpg",
 				"static/proImages/SpareParts/16/微信图片_20190921162412.png"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"DYB50-DC12B Electric Transfer Pump,Explosion Proof",
+				"Technical Specificatons",
+				"For diesel, gasoline, kerosene, mineral spirits, Stoddard solvent and heptane",
+				"Explosion-proof permanent magnet motor with thermal overload protection",
+				"Built-in strainer, bypass valve ",
+				"Ball bearing construction, no lubrication required ",
+				"1\" diameter, 12'hose with static ground wire and 1\" manual nozzle ",
+				"nozzle boot that protects against dirt and contamination ",
+				"2\" threaded base for tank openings", 
+				"Corrosion-Proof section pipe ",
+				"Rain proof.water proof",
+				"30-minute duty cycle/not for continuous operation ",
+				"Options ：",
+				"FM-40G meter in gallons or FM-120 meter in liters ",
+				"Automatic nozzle"
+			],
 			"id": "Spare Parts",
 			"title": "DYB50-DC12B Electric Transfer Pump,Explosion Proo",
 			"proSrc": "static/proImages/SpareParts/16/DYB50-DC12B Electric Transfer Pump,Explosion Proo.jpg"
@@ -148,7 +242,11 @@
 			"src": [
 				"static/proImages/SpareParts/17/ETP-50CL Luxury Electric Transfer Pump Unit.jpg"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"ETP-50CL Luxury Electric Transfer Pump Unit",
+				"Technical Specificatons",
+				"ETP-50CL Luxury Electric Transfer Pump Unit is improved form ETP-50C,with reusable filter and completely close metal case."
+			],
 			"id": "Spare Parts",
 			"title": "ETP-50CL Luxury Electric Transfer Pump Unit",
 			"proSrc": "static/proImages/SpareParts/17/ETP-50CL Luxury Electric Transfer Pump Unit.jpg"
@@ -157,7 +255,11 @@
 				"static/proImages/SpareParts/18/FM-40G Flow Meter.jpg",
 				"static/proImages/SpareParts/18/微信图片_20190921162532.png"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"FM-40G Flow Meter",
+				"Technical Specificatons",
+				"FM-40G Flow Meters, designed for metering diesel fuel, gasoline, kerosene, mineral spirits, stoddard solvent and heptane with the advantage of Large, easy to read numbers, Quick reset knob, Flexible flowports can be positioned vertically or horizontally. The easy reset register indicates product use up to 999.9 gallons. The master totalizer registers up to 99999999 gallons."
+			],
 			"id": "Spare Parts",
 			"title": "FM-40G Flow Meter",
 			"proSrc": "static/proImages/SpareParts/18/FM-40G Flow Meter.jpg"
@@ -166,7 +268,13 @@
 				"static/proImages/SpareParts/19/FM-120L Flow Meter.jpg",
 				"static/proImages/SpareParts/19/微信图片_20190921162627.png"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"FM-120L Flow Meter",
+				"Technical Specificatons",
+				"FM-120L Flow Meter is to measure the exact quantity of the dispensed fuel.They are designed for non-commercial use only.These flow-meters are reliable,inexpensive,easy to install and simple to calibrate on the workplace.",
+				"Aluminium metering chamber,1\" thread connection.",
+				"Mechanical readout device with rotating wheels.Subtotals can be set to zero,total readouts can not."
+			],
 			"id": "Spare Parts",
 			"title": "FM-120L Flow Meter",
 			"proSrc": "static/proImages/SpareParts/19/FM-120L Flow Meter.jpg"
@@ -188,7 +296,10 @@
 				"static/proImages/SpareParts/21/GL-1 Filter Holder.jpg",
 				"static/proImages/SpareParts/21/微信图片_20190921163256.png"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"GL-1 Filter Holder",
+				"Technical Specificatons"
+			],
 			"id": "Spare Parts",
 			"title": "GL-1 Filter Holder",
 			"proSrc": "static/proImages/SpareParts/21/GL-1 Filter Holder.jpg"
@@ -197,7 +308,11 @@
 				"static/proImages/SpareParts/22/GL-3 Filter Net.jpg",
 				"static/proImages/SpareParts/22/微信图片_20190921163352.png"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"GL-3 Filter Net",
+				"Technical Specificatons",
+				"Used for GL-1 filter holder."
+			],
 			"id": "Spare Parts",
 			"title": "GL-3 Filter Net",
 			"proSrc": "static/proImages/SpareParts/22/GL-3 Filter Net.jpg"
@@ -208,7 +323,11 @@
 				"static/proImages/SpareParts/23/20140404143412_162.jpg",
 				"static/proImages/SpareParts/23/微信图片_20190921163507.jpg"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"HS-2A Hose Swivel",
+				"Technical Specificatons",
+				"HS-2A Rotary Swivels, Used for connecting the nozzle and the hose, 360бу swivel action."
+			],
 			"id": "Spare Parts",
 			"title": "HS-2A Hose Swivel",
 			"proSrc": "static/proImages/SpareParts/23/HS-2A Hose Swivel.jpg"
@@ -217,7 +336,10 @@
 				"static/proImages/SpareParts/24/J50-A Nozzle.jpg",
 				"static/proImages/SpareParts/24/微信图片_20190921163704.png"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"J50-A Nozzle",
+				"Technical Specificatons"
+			],
 			"id": "Spare Parts",
 			"title": "J50-A Nozzle",
 			"proSrc": "static/proImages/SpareParts/24/J50-A Nozzle.jpg"
@@ -226,7 +348,10 @@
 				"static/proImages/SpareParts/25/J80-A Nozzle.jpg",
 				"static/proImages/SpareParts/25/微信图片_20190921164015.png"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"J80-A Nozzle",
+				"Technical Specificatons"
+			],
 			"id": "Spare Parts",
 			"title": "J80-A Nozzle",
 			"proSrc": "static/proImages/SpareParts/25/J80-A Nozzle.jpg"
@@ -236,7 +361,11 @@
 				"static/proImages/SpareParts/26/20140403134654_353.png",
 				"static/proImages/SpareParts/26/微信图片_20190921164121.png"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"JG-473 Flow Meter",
+				"Technical Specificatons",
+				"JG-473B Flow meter is improved from JG-473A meter, inlet on top and outlet on bottom with advantage of reliable construction, long life service, etc."
+			],
 			"id": "Spare Parts",
 			"title": "JG-473 Flow Meter",
 			"proSrc": "static/proImages/SpareParts/26/JG-473 Flow Meter.jpg"
@@ -245,7 +374,18 @@
 				"static/proImages/SpareParts/27/JSQ-2 Mechanincal Register.jpg",
 				"static/proImages/SpareParts/27/微信图片_20190921164257.png"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"JSQ-2 Mechanincal Register",
+				"Technical Specificatons",
+				"The JSQ-2 Mechanincal Register is the outstanding choice for recording and displaying delivery data in a wide variety of industries. In the petroleum refining and distributiong field, it is used from the well to pipelines and storage centers, then ti gasoline and fuel oil delivery trucks. In the chemical processing field, it can be used for displaying totals during mixing and batching operations. The mechanical Recgister totalizes and displays high speed deliveries and transactions in large easy-to-read figures.",
+				"Advantage: ",
+				"1、New crisp, high visibility digital display for optimum readability in all ambient lighting. ",
+				"2、Latest technology,modern materials give maximum dependability at speeds to 250 rpm of right wheel ord. ",
+				"3、Positive action knob reset. ",
+				"4、Built-in precision totalizer accumulates uo to 99,999,999 units,Delivery display 5 digital. ",
+				"5、Acetal resin components for smooth operation and extra long life. ",
+				"6、Fits all popular flow meters. "
+			],
 			"id": "Spare Parts",
 			"title": "JSQ-2 Mechanincal Register",
 			"proSrc": "static/proImages/SpareParts/27/JSQ-2 Mechanincal Register.jpg"
@@ -254,7 +394,13 @@
 				"static/proImages/SpareParts/28/JYM-1 Oval gear meter.jpg",
 				"static/proImages/SpareParts/28/微信图片_20190921164456.png"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"JYM/*-1 Oval gear meter",
+				"Technical Specificatons",
+				"JYM/*-1 Oval gear meter for controlling and measuring low, medium,and high viscosity,such as fuel,lubrication oil,with advantage of high precision and low pressure loss,compact light weight design and easy installation.",
+				"JYM/L-1 Oval gear meter with LCD display, 5-digital sub-total, with floating point from 0.001 to 999.99 8-digital non-resettable totalizer.",
+				"JYM/P-1 Oval gear meter with pulse output, Reed Swithch built in,signal channel output."
+			],
 			"id": "Spare Parts",
 			"title": "JYM-1 Oval gear meter",
 			"proSrc": "static/proImages/SpareParts/28/JYM-1 Oval gear meter.jpg"
@@ -263,7 +409,11 @@
 				"static/proImages/SpareParts/29/JYB-1 electric gear oil pump.jpg",
 				"static/proImages/SpareParts/29/微信图片_20190921164551.png"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"JYB-1 electric gear oil pump",
+				"Technical Specificatons",
+				"JYB-1 electric gear oil pump is designed for various requirements of pumping oils&lubricants, with the construction of die-cast aluminum pump body, By-pass valve, sintered steel gears, mechanical seal on the motor shaft, with the advantage of qriet operation, high suction capacity\\compact design."
+			],
 			"id": "Spare Parts",
 			"title": "JYB-1 electric gear oil pump",
 			"proSrc": "static/proImages/SpareParts/29/JYB-1 electric gear oil pump.jpg"
@@ -272,7 +422,13 @@
 				"static/proImages/SpareParts/30/JYQ Oil nozzle with meter.jpg",
 				"static/proImages/SpareParts/30/微信图片_20190921170114.jpg"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"JYQ Oil nozzle with meter",
+				
+				
+				"Technical Specificatons",
+				"JYQ-1 oil nozzle,easily combinde with JYM/L-1 meter to measuring the dispensing of oil,with the construction of aluminum body swivel,a in-built balanced valve."
+			],
 			"id": "Spare Parts",
 			"title": "JYQ Oil nozzle with meter",
 			"proSrc": "static/proImages/SpareParts/30/JYQ Oil nozzle with meter.jpg"
@@ -280,7 +436,11 @@
 			"src": [
 				"static/proImages/SpareParts/31/ETP-××C Electric Transfer Pump Unit.jpg"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"ETP-××C Electric Transfer Pump Unit",
+				"Technical Specificatons",
+				"ETP-××C Series Electric Transfer Pump Unit is improved from ETP-××A series,JYM/L-1 electronic oval gear,LCD display,instead of traditional FM-120L meachanical meter,with advantage of high accuracy up to±0.5%,low weight,easy use and 5 digital Sub-toal and 8 digital Non-resettable totalizer,ect."
+			],
 			"id": "Spare Parts",
 			"title": "ETP-××C Electric Transfer Pump Unit",
 			"proSrc": "static/proImages/SpareParts/31/ETP-××C Electric Transfer Pump Unit.jpg"
@@ -289,7 +449,10 @@
 				"static/proImages/SpareParts/32/ME-50 B Nozzle Holder with Hall Swith.jpg",
 				"static/proImages/SpareParts/32/微信图片_20190921170857.png"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"ME-50/B Nozzle Holder with Hall Swith",
+				"Technical Specificatons"
+			],
 			"id": "Spare Parts",
 			"title": "ME-50 B Nozzle Holder with Hall Swith",
 			"proSrc": "static/proImages/SpareParts/32/ME-50 B Nozzle Holder with Hall Swith.jpg"
@@ -298,7 +461,11 @@
 				"static/proImages/SpareParts/33/ETP-25 Electric Transfer Pump Unit.jpg",
 				"static/proImages/SpareParts/33/微信图片_20190921171045.png"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"ETP-25 Electric Transfer Pump Unit",
+				"Technical Specificatons",
+				"ETP-25 electric transfer Pump unit is installed with OGM-25 mechanical oval gear meter and DYB60-AC220 electric diesel pump,to gether with 4m hose&manual nozzle,2m inlet hose and filter check valve,assembled in trolley construction,with the advantage of high accuracy up to±0.5%,4 digital sub-total and 6 digital non-resettable totalizer,easy use,ect."
+			],
 			"id": "Spare Parts",
 			"title": "ETP-25 Electric Transfer Pump Unit",
 			"proSrc": "static/proImages/SpareParts/33/ETP-25 Electric Transfer Pump Unit.jpg"
@@ -309,7 +476,10 @@
 				"static/proImages/SpareParts/34/微信图片_20190923181307.png",
 				"static/proImages/SpareParts/34/微信图片_20190923181328.png"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"LPG Differential Valve",
+				"Technical Specificatons"
+			],
 			"id": "Spare Parts",
 			"title": "LPG Differential Valve",
 			"proSrc": "static/proImages/SpareParts/34/LPG Differential Valve.jpg"
@@ -317,7 +487,24 @@
 			"src": [
 				"static/proImages/SpareParts/35/Manual Bottom Valve.jpg"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"Manual Bottom Valve",
+				
+				
+				
+				"Technical Specificatons",
+				"Advantage: ",
+				
+				"· Size:3\" Material:Aluminum ",
+				
+				"· High Flow,lower pressure lost",
+				
+				"· Shear Groove,automatic cut-off and leak proof under emergency condition.",
+				
+				"· Shear Valve,using automatic piston right and durable spring. ",
+				
+				"· After emergency cut-off,it can still keep hermetic like before."
+			],
 			"id": "Spare Parts",
 			"title": "Manual Bottom Valve",
 			"proSrc": "static/proImages/SpareParts/35/Manual Bottom Valve.jpg"
@@ -326,7 +513,11 @@
 				"static/proImages/SpareParts/36/MD-9 Angle Check Valve.jpg",
 				"static/proImages/SpareParts/36/微信图片_20190923143842.png"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"MD-9 Angle Check Valve",
+				"Technical Specificatons",
+				"Used for gasoline, kerosene, diesel oil, etc"
+			],
 			"id": "Spare Parts",
 			"title": "MD-9 Angle Check Valve",
 			"proSrc": "static/proImages/SpareParts/36/MD-9 Angle Check Valve.jpg"
@@ -335,7 +526,11 @@
 				"static/proImages/SpareParts/37/MD-13 Foot Valve.jpg",
 				"static/proImages/SpareParts/37/微信图片_20190923143946.png"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"MD-13 Foot Valve",
+				"Technical Specificatons",
+				"Used for water, gasoline, kerosene, diesel oil,etc."
+			],
 			"id": "Spare Parts",
 			"title": "MD-13 Foot Valve",
 			"proSrc": "static/proImages/SpareParts/37/MD-13 Foot Valve.jpg"
@@ -345,7 +540,11 @@
 				"static/proImages/SpareParts/38/微信图片_20190923144139.png",
 				"static/proImages/SpareParts/38/微信图片_20190923144119.png"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"MD-45A Swivel",
+				"Technical Specificatons",
+				"MD-45A Swivels Used for connecting the nozzle and the hose, 360бу swivel action. "
+			],
 			"id": "Spare Parts",
 			"title": "MD-45A Swivel",
 			"proSrc": "static/proImages/SpareParts/38/MD-45A Swivel.jpg"
@@ -358,7 +557,12 @@
 				"static/proImages/SpareParts/39/20140402164257_887.jpg",
 				"static/proImages/SpareParts/39/20140402164337_526.jpg"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"MD-120 Automatic Nozzle",
+				"Technical Specificatons",
+				"Heavy-duty high-flow nozzle, for fueling to truck,bus Low cost,long life and durability. ",
+				"High flow nozzle can help increase your productivity, sales and profits."
+			],
 			"id": "Spare Parts",
 			"title": "MD-120 Automatic Nozzle",
 			"proSrc": "static/proImages/SpareParts/39/MD-120 Automatic Nozzle.jpg"
@@ -367,7 +571,11 @@
 				"static/proImages/SpareParts/40/MD-212 Pulser.jpg",
 				"static/proImages/SpareParts/40/微信图片_20190923145707.png"
 			],
-			"technicalTitle": [],
+			"technicalTitle": [
+				"MD-212 Pulser",
+				"Technical Specificatons",
+				"60 and 100 Pulses Available， Output signal as required."
+			],
 			"id": "Spare Parts",
 			"title": "MD-212 Pulser",
 			"proSrc": "static/proImages/SpareParts/40/MD-212 Pulser.jpg"

@@ -11,6 +11,8 @@ import  vueSwiper from 'vue-awesome-swiper'//根据package.json中的value导入
 import 'swiper/dist/css/swiper.css'//引入样式
 
 Vue.use(vueSwiper)
+import Paginate from 'vuejs-paginate'
+Vue.component('paginate', Paginate)
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

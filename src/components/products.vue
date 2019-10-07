@@ -25,30 +25,9 @@
             <span>{{ item.text }}</span>
           </li>
         </ul>
-        <ul v-if="isActive == 0">
-          <li v-for="(item, index) in FuelDispenserData" class="goods_list" :key="index">
-            <router-link :to="{ name: 'Details', params: { detail: item }}">
-              <a><img v-bind:src="item.proSrc" /></a>
-              <div class="proTitle">{{item.title}}</div>
-            </router-link>
-          </li>
-			  </ul>
-			  <ul v-if="isActive == 1">
-          <li v-for="(item, index) in SparePartsDatas" class="goods_list" :key="index">
-            <router-link :to="{ name: 'Details', params: { detail: item }}">
-              <a><img v-bind:src="item.proSrc" /></a>
-              <div class="proTitle">{{item.title}}</div>
-            </router-link>
-          </li>
-        </ul>
-        <ul v-if="isActive == 2">
-          <li v-for="(item, index) in systemData" class="goods_list" :key="index">
-            <router-link :to="{ name: 'Details', params: { detail: item }}">
-              <a><img v-bind:src="item.src" /></a>
-              <div class="proTitle">{{item.title}}</div>
-            </router-link>
-          </li>
-			  </ul>
+		<fuel-dispenser-datas-wrap v-if="isActive == 0"></fuel-dispenser-datas-wrap>
+		<spare-parts-data-wrap v-if="isActive == 1"></spare-parts-data-wrap>
+		<system-datas-wrap v-if="isActive == 2"></system-datas-wrap>
 			</div>
 		</div>
 	</div>
@@ -58,14 +37,18 @@
   import MenuWrap from '@/components/menu.vue'
 	import FollowUs from '@/components/followus.vue'
   import ContactCardWrap from '@/components/contact-card.vue'
-  import systemDatas from '../../static/SystemData.json';
-  import FuelDispenserDatas from '../../static/FuelDispenser.json';
-  import SparePartsData from '../../static/SpareParts.json';
+  
+  import FuelDispenserDatasWrap from '@/components/fuel-dispenser-data.vue'
+  import SparePartsDataWrap from '@/components/spare-parts-data.vue';
+  import systemDatasWrap from '@/components/system-datas.vue';
 	export default {
 		components: {
 			MenuWrap,
 			FollowUs,
-			ContactCardWrap
+			ContactCardWrap,
+			FuelDispenserDatasWrap,
+			SparePartsDataWrap,
+			systemDatasWrap
     },
     data() {
       return{
@@ -77,7 +60,7 @@
         systemData: [],
         FuelDispenserData: [],
         SparePartsDatas: [],
-        isActive: 1
+        isActive: 0
       }
     },
     methods:{
@@ -87,49 +70,6 @@
 			toProducts:function(){
 				this.$router.push('/products')
       },
-      // change: function (index, text) {
-      //   this.isActive = index;
-      //   if(text == 'System'){
-      //     this.systemData = [];
-      //     this.FuelDispenserData = [];
-      //     systemDatas.CentralControlSystem.map((item, index)=>{
-      //       if(index==0){
-      //         this.systemData.push(item)
-      //       }
-      //     })
-      //     systemDatas.TankMonitorSystem.map((item, index)=>{
-      //       if(index==0){
-      //         this.systemData.push(item)
-      //       }
-      //     })
-      //     console.log(this.systemData, this.FuelDispenserData)
-      //   }else if(text == 'Fuel Dispenser'){
-      //     this.systemData = [];
-      //     this.FuelDispenserData = [];
-      //     FuelDispenserDatas.map((item, index)=>{
-      //       this.FuelDispenserData.push(item)
-      //     })
-      //     console.log(this.systemData, this.FuelDispenserData)
-      //   }else if(text == 'Spare Parts'){
-      //     this.systemData = [];
-      //     this.FuelDispenserData = [];
-      //     console.log(this.systemData, this.FuelDispenserData)
-      //   }
-      // }
-		},
-		created:function(){
-      this.FuelDispenserData = FuelDispenserDatas;
-      this.SparePartsDatas = SparePartsData;
-			systemDatas.CentralControlSystem.map((item, index)=>{
-			  if(index==0){
-			    this.systemData.push(item)
-			  }
-			});
-			systemDatas.TankMonitorSystem.map((item, index)=>{
-			  if(index==0){
-			    this.systemData.push(item)
-			  }
-			})
 		}
 	}
 </script>
@@ -186,34 +126,6 @@
           .active{
             background: red;
             color: #fff;
-          }
-        }
-        .goods_list{
-          padding-top: 3px;
-          margin-top: 2px;
-          float: left;
-          width: 227px;
-          margin-right: 8px;
-          margin-bottom: 8px;
-          overflow: hidden;
-          a {
-            a {
-              display: block;
-              width: 100%;
-              overflow: hidden;
-              img {
-                border: 1px #e9e9e9 solid;
-                width: 224px;
-                height: 275px;
-              }
-            }
-          }
-          .proTitle{
-            height: 32px;
-            line-height: 18px;
-            text-align: center;
-            font-size: 11px;
-            font-weight: bold;
           }
         }
 			}
