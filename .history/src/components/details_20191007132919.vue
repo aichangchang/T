@@ -151,10 +151,10 @@
         }
         .goods_lists{
           .goods_list{
-            width: 500px;
+            width: 100%;
             img{
               text-align: center;
-              width: 100%;
+              width: 500px;
               margin: 0 auto;
               margin-top: 8px;
               border: 1px #e9e9e9 solid;

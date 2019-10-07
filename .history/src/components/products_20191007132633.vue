@@ -186,7 +186,7 @@
           padding-top: 3px;
           margin-top: 2px;
           float: left;
-          width: 227px;
+          width: 221px;
           margin-right: 8px;
           margin-bottom: 8px;
           overflow: hidden;
@@ -203,9 +203,8 @@
             }
           }
           .proTitle{
-            height: 32px;
-            line-height: 18px;
-            text-align: center;
+            line-height: 21px;
+            text-align: left;
             font-size: 11px;
             font-weight: bold;
           }

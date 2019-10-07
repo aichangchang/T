@@ -186,27 +186,23 @@
           padding-top: 3px;
           margin-top: 2px;
           float: left;
-          width: 227px;
+          width: 224px;
           margin-right: 8px;
           margin-bottom: 8px;
           overflow: hidden;
           a {
-            a {
-              display: block;
+            display: block;
+            width: 100%;
+            overflow: hidden;
+            img {
+              border: 1px #e9e9e9 solid;
               width: 100%;
-              overflow: hidden;
-              img {
-                border: 1px #e9e9e9 solid;
-                width: 224px;
-                height: 275px;
-              }
             }
           }
           .proTitle{
-            height: 32px;
-            line-height: 18px;
+            line-height: 42px;
             text-align: center;
-            font-size: 11px;
+            font-size: 12px;
             font-weight: bold;
           }
         }
