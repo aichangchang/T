@@ -1,0 +1,5 @@
+MD-212 Pulser
+
+
+Technical Specificatons
+60 and 100 Pulses Available£¬ Output signal as required.

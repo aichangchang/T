@@ -1,0 +1,5 @@
+Oil Indicator
+
+
+Technical Specificatons
+SYQ-4 Oil lndicator Red Vane built in to indicate flow.
