@@ -151,7 +151,7 @@
         }
         .goods_lists{
           .goods_list{
-            width: 500px;
+            width: 100%;
             img{
               text-align: center;
               width: 100%;

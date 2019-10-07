@@ -154,7 +154,6 @@
             width: 500px;
             img{
               text-align: center;
-              width: 100%;
               margin: 0 auto;
               margin-top: 8px;
               border: 1px #e9e9e9 solid;

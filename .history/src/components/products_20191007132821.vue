@@ -203,7 +203,6 @@
             }
           }
           .proTitle{
-            height: 32px;
             line-height: 18px;
             text-align: center;
             font-size: 11px;

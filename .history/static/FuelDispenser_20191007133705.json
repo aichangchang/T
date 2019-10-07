@@ -358,58 +358,5 @@
 		"id": "Fuel Dispenser",
 		"title": "TK 8800-HS SERIES",
 		"proSrc": "static/proImages/FuelDispenser/12/TK_8800-HS_SERIES.png"
-  },
-  {
-		"src": [
-      "static/proImages/FuelDispenser/13/TK_8800-222_SERIES.png"
-		],
-		"technicalTitle": [
-			"TECHNICAL SPECIFICATIONS",
-			"Accuracy: ±0.3%,1.5%",
-			"Frequency: 50HZ±1HZ/60HZ±1HZ",
-			"Delivery Rate: 5-50L/min,5-90L/min",
-			"Rating Power: 0.75KW,1KW",
-			"Measurbale Minimum: 0.01L",
-			"Ambient Humidity: 45% to 85%",
-			"Nosie: ≤80dB(A)",
-			"Ambient Temperature: -40℃ to +60℃ ",
-      "Inlet Vacuum: ≥0.06MPa",
-			"Anti-Explosive ID: Ex Ⅱ 2 G Ex dem",
-			"Anti-Explosive Certificate Number: Nemko 08ATEX4321Q",
-			"Totalizer Range: 0.00 to 99999999999.99",
-      "Range of Price: 0.01 to 99999",
-      "License of Manufacturing Metric Instrument: R117/2007-B-CN2-2019.01"
-		],
-		"id": "Fuel Dispenser",
-		"title": "TK 8800-222 SERIES",
-		"proSrc": "static/proImages/FuelDispenser/13/TK_8800-222_SERIES.png"
-  },
-  {
-		"src": [
-      "static/proImages/FuelDispenser/14/TK_8800-404_SERIES.png",
-      "static/proImages/FuelDispenser/14/DSC00618.JPG"
-		],
-		"technicalTitle": [
-			"TECHNICAL SPECIFICATIONS",
-			"Accuracy: ±0.3%,1.5%",
-			"Frequency: 50HZ±1HZ/60HZ±1HZ",
-			"Delivery Rate: 5-50L/min,5-90L/min",
-			"Rating Power: 0.75KW,1KW",
-			"Measurbale Minimum: 0.01L",
-			"Ambient Humidity: 45% to 85%",
-			"Nosie: ≤80dB(A)",
-			"Ambient Temperature: -40℃ to +60℃ ",
-      "Inlet Vacuum: ≥0.06MPa",
-			"Anti-Explosive ID: Ex Ⅱ 2 G Ex dem",
-			"Anti-Explosive Certificate Number: Nemko 08ATEX4321Q",
-			"Totalizer Range: 0.00 to 99999999999.99",
-      "Range of Price: 0.01 to 99999",
-      "License of Manufacturing Metric Instrument: R117/2007-B-CN2-2019.01",
-      "Preset Min Value:0.01 to 0.99L",
-      "Power Supply: AC380V±20% or AC220V±20%"
-		],
-		"id": "Fuel Dispenser",
-		"title": "TK 8800-404 SERIES",
-		"proSrc": "static/proImages/FuelDispenser/14/TK_8800-404_SERIES.png"
   }
 ]
