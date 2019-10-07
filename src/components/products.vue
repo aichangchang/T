@@ -21,22 +21,23 @@
           </p>
         </div>
         <ul class="typelist clearfix">
-          <li class="li1" v-for="(item, index) in items" :key="item.id" :class="{ 'active': isActive==index }" @click="change(index, item.text)">
+          <li class="li1" v-for="(item, index) in items" :key="item.id" :class="{ 'active': isActive==index }" @click="isActive = index">
             <span>{{ item.text }}</span>
           </li>
         </ul>
-        <ul v-if="this.systemData.length>0">
-          <li v-for="(item, index) in systemData" class="goods_list" :key="index">
+        <ul v-if="isActive == 0">
+          <li v-for="(item, index) in FuelDispenserData" class="goods_list" :key="index">
             <router-link :to="{ name: 'Details', params: { detail: item }}">
-              <a><img v-bind:src="item.src" /></a>
+              <a><img v-bind:src="item.proSrc" /></a>
               <div class="proTitle" >{{item.title}}</div>
             </router-link>
           </li>
 			  </ul>
-        <ul v-if="this.FuelDispenserData.length>0">
-          <li v-for="(item, index) in FuelDispenserData" class="goods_list" :key="index">
+			<ul v-if="isActive == 1"></ul>
+        <ul v-if="isActive == 2">
+          <li v-for="(item, index) in systemData" class="goods_list" :key="index">
             <router-link :to="{ name: 'Details', params: { detail: item }}">
-              <a><img v-bind:src="item.proSrc" /></a>
+              <a><img v-bind:src="item.src" /></a>
               <div class="proTitle" >{{item.title}}</div>
             </router-link>
           </li>
@@ -67,7 +68,7 @@
         ],
         systemData: [],
         FuelDispenserData: [],
-        isActive: 4
+        isActive: 0
       }
     },
     methods:{
@@ -77,35 +78,52 @@
 			toProducts:function(){
 				this.$router.push('/products')
       },
-      change: function (index, text) {
-        this.isActive = index;
-        if(text == 'System'){
-          this.systemData = [];
-          this.FuelDispenserData = [];
-          systemDatas.CentralControlSystem.map((item, index)=>{
-            if(index==0){
-              this.systemData.push(item)
-            }
-          })
-          systemDatas.TankMonitorSystem.map((item, index)=>{
-            if(index==0){
-              this.systemData.push(item)
-            }
-          })
-          console.log(this.systemData, this.FuelDispenserData)
-        }else if(text == 'Fuel Dispenser'){
-          this.systemData = [];
-          this.FuelDispenserData = [];
-          FuelDispenserDatas.map((item, index)=>{
-            this.FuelDispenserData.push(item)
-          })
-          console.log(this.systemData, this.FuelDispenserData)
-        }else if(text == 'Spare Parts'){
-          this.systemData = [];
-          this.FuelDispenserData = [];
-          console.log(this.systemData, this.FuelDispenserData)
-        }
-      }
+      // change: function (index, text) {
+      //   this.isActive = index;
+      //   if(text == 'System'){
+      //     this.systemData = [];
+      //     this.FuelDispenserData = [];
+      //     systemDatas.CentralControlSystem.map((item, index)=>{
+      //       if(index==0){
+      //         this.systemData.push(item)
+      //       }
+      //     })
+      //     systemDatas.TankMonitorSystem.map((item, index)=>{
+      //       if(index==0){
+      //         this.systemData.push(item)
+      //       }
+      //     })
+      //     console.log(this.systemData, this.FuelDispenserData)
+      //   }else if(text == 'Fuel Dispenser'){
+      //     this.systemData = [];
+      //     this.FuelDispenserData = [];
+      //     FuelDispenserDatas.map((item, index)=>{
+      //       this.FuelDispenserData.push(item)
+      //     })
+      //     console.log(this.systemData, this.FuelDispenserData)
+      //   }else if(text == 'Spare Parts'){
+      //     this.systemData = [];
+      //     this.FuelDispenserData = [];
+      //     console.log(this.systemData, this.FuelDispenserData)
+      //   }
+      // }
+		},
+		created:function(){
+			// 第一个
+			this.FuelDispenserData = FuelDispenserDatas;
+			systemDatas.CentralControlSystem.map((item, index)=>{
+			  if(index==0){
+			    this.systemData.push(item)
+			  }
+			});
+			// 第二个
+			
+			// 第三个
+			systemDatas.TankMonitorSystem.map((item, index)=>{
+			  if(index==0){
+			    this.systemData.push(item)
+			  }
+			})
 		}
 	}
 </script>

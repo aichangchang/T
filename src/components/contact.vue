@@ -35,7 +35,6 @@
 						<span>Room 1617-1618,Block A Yinfeng Commercial Bldg,No.37 Nongye Road,Jinshui District,Zhengzhou,P.R.China</span>
 					</p>
 				</div>
-				<img class="b2" src="../assets/images/20160608140657_156.jpg" alt="">
 				<img class="b3" src="../assets/images/7.jpg" alt="">
 			</div>
 		</div>

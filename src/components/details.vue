@@ -1,7 +1,7 @@
 <template>
 	<div class="main">
 		<div class="banner clear">
-			<div class="menu">
+			<div class="menu-wrap">
 				<menu-wrap></menu-wrap>
         <follow-us></follow-us>
 				<div style="margin-top: 20px;">
@@ -30,11 +30,11 @@
           </li>
 			  </ul>
         <ul v-if="this.FuelDispenserSrcData.length>0" class="goods_lists">
-          <li v-for="item in FuelDispenserSrcData" class="goods_list" :key="item.src">
-            <img v-bind:src="item.src" />
+          <li v-for="(item, index) in FuelDispenserSrcData" class="goods_list" :key="index">
+            <img v-bind:src="item" />
           </li>
-          <li v-for="item in FuelDispenserTitleData" class="goods_title" :key="item.title">
-            <p :class="{ 'titleColor': item.title === 'Technical Specificatons' }">{{item.title}}</p>
+          <li v-for="(item, index) in FuelDispenserTitleData" class="goods_title" :key="index">
+            <p :class="{ 'titleColor': item == 'Technical Specificatons' }">{{item}}</p>
           </li>
 			  </ul>
 			</div>
@@ -111,7 +111,7 @@
 <style lang="less" scoped="scoped">
 	.main {
 		width: 100%;
-		.menu{
+		.menu-wrap{
 			float: left;
 			width: 184px;
 		}
