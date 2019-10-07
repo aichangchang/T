@@ -1,9 +1,0 @@
-MD-20B Automatic Nozzle
-
-
-Technical Specificatons
-Whole Spout to avoid leakage after service long time.
-
-The main valve is sealed in two layers to avoid being difficult to run the nozzles when working pressure is too high.
-
-The nozzle can be controlled in three grades only with one hand.

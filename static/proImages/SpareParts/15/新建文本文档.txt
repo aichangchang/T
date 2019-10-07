@@ -1,5 +1,0 @@
-JSQ-4 Mechanical Counter with Ticket Printer
-
-
-Technical Specificatons
-Printer generates an imprinted record of the tran saction which is idea.

@@ -1,9 +1,0 @@
-JYM/*-1 Oval gear meter
-
-
-Technical Specificatons
-JYM/*-1 Oval gear meter for controlling and measuring low, medium,and high viscosity,such as fuel,lubrication oil,with advantage of high precision and low pressure loss,compact light weight design and easy installation.
-
-JYM/L-1 Oval gear meter with LCD display, 5-digital sub-total, with floating point from 0.001 to 999.99 8-digital non-resettable totalizer.
-
-JYM/P-1 Oval gear meter with pulse output, Reed Swithch built in,signal channel output.

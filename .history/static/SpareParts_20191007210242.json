@@ -555,12 +555,9 @@
 			"src": [
 				"static/proImages/SpareParts/39/MD-120 Automatic Nozzle.jpg",
 				"static/proImages/SpareParts/39/20140402164257_887.jpg",
-        "static/proImages/SpareParts/39/20140402164337_526.jpg",
-        "static/proImages/SpareParts/39/微信图片_20190923144422.png",
-        "static/proImages/SpareParts/39/20140402164521_388.jpg"
+				"static/proImages/SpareParts/39/20140402164337_526.jpg"
 			],
 			"technicalTitle": [
-        "1. Insulator 2. Spout 3. Cover 4. Diaphragm 5. Shut-off Level 6. Nozzle Cover 7. Spring Seat 8. Valve 9. Mandrill 10. Nozzle Body 11. Level 12. Guard 13. Rivet",
 				"MD-120 Automatic Nozzle",
 				"Technical Specificatons",
 				"Heavy-duty high-flow nozzle, for fueling to truck,bus Low cost,long life and durability. ",
@@ -1182,75 +1179,5 @@
 		"id": "Spare Parts",
 		"title": "XIDE-120 Automatic Nozzle",
 		"proSrc": "static/proImages/SpareParts/77/XIDE-120 Automatic Nozzle.jpg"
-  },
-  {
-		"src": [
-      "static/proImages/SpareParts/78/TD-20A2 Automatic Nozzle.jpg",
-      "static/proImages/SpareParts/78/微信图片_20190923180335.png"
-		],
-		"technicalTitle": [
-      "TD-20A2 Automatic Nozzle",
-      "Technical Specificatons",
-      "TD-20A1 Automatic nozzle is improved from TD-20A nozzle, designed with Farm&home customers in Mind, with advantage of high flow rate, easy hung.it is idea nozzle for electric transfer pump on farm and home use.",
-      "TD-20A2 Automatic nozzle is improved from TD-20A nozzle, the spout is fixed on the nozzle body with three bolts to avoid the leakage after long time service."
-    ],
-		"id": "Spare Parts",
-		"title": "TD-20A2 Automatic Nozzle",
-		"proSrc": "static/proImages/SpareParts/78/TD-20A2 Automatic Nozzle.jpg"
-  },
-  {
-		"src": [
-      "static/proImages/SpareParts/79/SM Series Positive Displacement Vane Meter.jpg",
-      "static/proImages/SpareParts/79/20140401162102_516.jpg",
-      "static/proImages/SpareParts/79/20140401155656_331.jpg",
-      "static/proImages/SpareParts/79/20140401155645_138.jpg",
-      "static/proImages/SpareParts/79/微信图片_20190923180433.png",
-      "static/proImages/SpareParts/79/微信图片_20190923180449.png"
-		],
-		"technicalTitle": [
-      "SM Series Positive Displacement Vane Meter",
-      "Technical Specificatons",
-      "Advantages：",
-      "Stepless adjusting mechanism allow a micro adjustment of the meter. ",
-      "Special designed Manifold in line separates from measuring chamber to avoid stress coming from the installation.",
-      "Low head loss",
-      "Simple construction : Rotor - blades for easy and low maintenance cost . ",
-      "Wearing compensation :To maintain a good accuracy all along the years. ",
-      "Meter also for viscous products : up to 800 Cst. ",
-      "Materials:",
-      "Manifold: steel or Aluminium　 Covers: Steel 　　　Rotor: aluminium　　　Baldes: carbon",
-      "Bearings: stainless steel　　　Seals/ gaskets: viton,Buna'N'",
-      "Application: ",
-      "1、Oil company: refineries, Oil depots, gas station and Tank trucks distribution ",
-      "2、Airports: aircraft refuellers ",
-      "3、Army: depot reception or loading trucks ",
-      "4、Administration (railway companies, public transport) ",
-      "5、Ports: Boats/barges ",
-      "6、Private oil transport companies"
-    ],
-		"id": "Spare Parts",
-		"title": "SM Series Positive Displacement Vane Meter",
-		"proSrc": "static/proImages/SpareParts/79/SM Series Positive Displacement Vane Meter.jpg"
-  },
-  {
-		"src": [
-      "static/proImages/SpareParts/80/Pneumatic Bottom Valve.jpg",
-      "static/proImages/SpareParts/80/20140402101840_655.jpg"
-		],
-		"technicalTitle": [
-      "Pneumatic Bottom Valve",
-      "Technical Specificatons",
-      "Bottom Valve,namely Emergency Valve,is installed on the bottom of oil tank to transfer the liquid from bottom to tank with advantage of easy operation,saving time,safe.",
-      "pressure Balance Pneumatic Emergency Valve is installed on multi-chamber oil tank for loading to independent loading to different chamber with advantage of pipe simplified,reducing load,easy operation,more safe.",
-      "Advantage:",
-      "·Size:4' Material:Aluminum",
-      "·High Flow,lower pressure lost ",
-      "·Shear Groove,automatic cut-off and leak proof under emergency condition.",
-      "·Shear Valve,using automatic piston right and durable spring. After emergency cutoff,it can still keep hermetic like before.",
-      "·Emergency,if there is no air source or open failure for other reason,it can be aiso opened manually without demolition."
-    ],
-		"id": "Spare Parts",
-		"title": "Pneumatic Bottom Valve",
-		"proSrc": "static/proImages/SpareParts/80/Pneumatic Bottom Valve.jpg"
   }
 ]
