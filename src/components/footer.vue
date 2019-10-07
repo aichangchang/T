@@ -3,12 +3,19 @@
 		<div class="findus">
 			<p>Find Us</p>
 			<p>Gaoyi Road, No.2 minor District of the Hi-Tech Park, Wenzhou Economic and Technical Development Zone, Wenzhou, Zhejiang, China</p>
-			<p>View google map</p>
+			<p @click="toContact">View google map</p>
 		</div>
 	</div>
 </template>
 
 <script>
+	export default{
+		methods:{
+			toContact: function() {
+				this.$router.push('/contact')
+			},
+		}
+	}
 </script>
 
 <style lang="less" scoped="scoped">
@@ -33,6 +40,7 @@
 				color: #db261f;
 				line-height: 26px;
 				text-align: right;
+				cursor: pointer;
 			}
 		}
 	}
