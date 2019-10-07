@@ -37,19 +37,15 @@
 			<div class="aboutus-wrap">
 				<div class="tit">
 					<p>ABOUT US</p>
-					<p></p>
+					<p @click="toAboutUs"></p>
 				</div>
 				<img class="img1" src="../assets/images/index_r22_c15.jpg" alt="">
-				<p class="des">Zhejiang Lanfeng Machine Co., Ltd is one of the large-scale manufacturers specialized in developing
-					and producing fuel dispenser ,gas dispenser and all components , the factory occupying total area of 10382 square
-					meters , construction area 8818 square meters , possessing various precise processing equipment and production
-					line 235(sets) formed the yearly production 30,000 fuel dispenser, 100,000sets of various fuel dispenser parts and
-					LPG parts.</p>
+				<p class="des">"TRIDENT TECKNO" is a registered trademark of Henan V.Giant Machinery and Equipment Co.,Ltd , Henan V.Giant is one of the large-scale manufacturers specialized in developing and producing high quality fuel dispenser and accessory spare parts.Our products cover:Automatic Nozzles;Dispensers;Hose for Dispensers;Pumping unit;Flowmeter etc,provides the whole fuel dispenser and the necessary parts to domestic and international fuel dispenser manufactory and gas station for a long time.</p>
 			</div>
 			<div class="aboutus-wrap" style="margin: 0;">
 				<div class="tit">
 					<p>NETWORK</p>
-					<p></p>
+					<p @click="toContact"></p>
 				</div>
 				<img class="img2" src="../assets/images/index_r22_c24.jpg" alt="">
 			</div>
@@ -163,6 +159,14 @@
 					slidesPerView: 3,
 				}
 			};
+		},
+		methods:{
+			toAboutUs: function() {
+				this.$router.push('/aboutus')
+			},
+			toContact: function() {
+				this.$router.push('/contact')
+			},
 		},
 		created() {}
 	}
@@ -343,6 +347,7 @@
 					}
 
 					p:nth-child(2) {
+						cursor: pointer;
 						float: right;
 						margin-top: 15px;
 						display: inline;

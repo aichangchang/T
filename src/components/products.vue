@@ -1,9 +1,9 @@
 <template>
 	<div class="main">
 		<div class="banner clear">
-			<div class="menu">
+			<div class="menu-wrap">
 				<menu-wrap></menu-wrap>
-        <follow-us></follow-us>
+				<follow-us></follow-us>
 				<div style="margin-top: 20px;">
 					<contact-card-wrap></contact-card-wrap>
 				</div>
@@ -113,7 +113,7 @@
 <style lang="less" scoped="scoped">
 	.main {
 		width: 100%;
-		.menu{
+		.menu-wrap{
 			float: left;
 			width: 184px;
     }
@@ -125,7 +125,7 @@
         padding: 0 30px;
         padding-bottom: 20px;
         background-color: #fff;
-        min-height: 635px;
+        min-height: 570px;
         .location{
           height: 46px;
           line-height: 46px;

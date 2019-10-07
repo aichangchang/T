@@ -20,41 +20,19 @@
         </p>
 				<img class="b1" src="../assets/images/6.jpg" alt="">
 				<div class="desc">
-					<p class="t1">Zhejiang Lanfeng Machine Co., Ltd</p>
-					<p class="t2">
-						<span>Contact</span>
-						<span>Sales Department</span>
+					<p class="t1">HenanV.Giant Machinery and Equipment Co.,Ltd.</p>
 					</p>
 					<p class="t2">
 						<span>Tel</span>
-						<span>0086-577-86587777 86585888</span>
+						<span>+86 13607663327</span>
 					</p>
 					<p class="t2">
-						<span>Fax</span>
-						<span>0086-577-86581392</span>
+						<span>Email</span>
+						<span>tridentteckno@sina.com</span>
 					</p>
 					<p class="t2">
 						<span style="line-height: 40px;">Address</span>
-						<span>Gaoyi Road, No.2 minor District of the Hi-Tech Park, Wenzhou Economic and Technical Development Zone, Wenzhou, Zhejiang, China</span>
-					</p>
-					<p class="t2">
-						<span>ZIP</span>
-						<span>Sales Department</span>
-					</p><p class="t2">
-						<span>URL</span>
-						<span>http://www.chinalanfeng.com</span>
-					</p>
-					<p class="t2">
-						<span>Admin</span>
-						<span>chinalanfeng@vip.sina.com</span>
-					</p>
-					<p class="t2">
-						<span>Sale department</span>
-						<span>sale@chinalanfeng.com</span>
-					</p>
-					<p class="t2">
-						<span>After-service</span>
-						<span>chinalanfeng@vip.163.com</span>
+						<span>Room 1617-1618,Block A Yinfeng Commercial Bldg,No.37 Nongye Road,Jinshui District,Zhengzhou,P.R.China</span>
 					</p>
 				</div>
 				<img class="b2" src="../assets/images/20160608140657_156.jpg" alt="">

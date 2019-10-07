@@ -6,13 +6,13 @@
 				<span class="t1">E-MAIL</span>
 				<span class="t2">ADMIN</span>
 				<span class="t3">chinalanfeng@vip.sina.com</span>
-				<span class="t2">SALE DEPARTMENT</span>
-				<span class="t3">sale@chinalanfeng.com</span>
-				<span class="t2">After-service</span>
-				<span class="t3">chinalanfeng@vip.163.com</span>
+				<span class="t2">Tel</span>
+				<span class="t3">+86 13607663327</span>
+				<span class="t2">Address</span>
+				<span class="t3">Room 1617-1618,Block A Yinfeng Commercial Bldg,No.37 Nongye Road,Jinshui District,Zhengzhou,P.R.China</span>
 			</p>
 		</div>
-		<div class="card">
+		<!-- <div class="card">
 			<p>
 				<span class="t1">TEL</span>
 				<span class="t3">0086-577-86587777
@@ -24,7 +24,7 @@
 				<span class="t1">FAX</span>
 				<span class="t3">0086-577-86581392</span>
 			</p>
-		</div>
+		</div> -->
 	</div>
 </template>
 
