@@ -294,20 +294,5 @@
 		"id": "Spare Parts",
 		"title": "TD-11B Automatic Nozzle",
 		"proSrc": "static/proImages/SpareParts/59/TD-11B Automatic Nozzle.jpg"
-  },
-  {
-		"src": [
-      "static/proImages/SpareParts/60/TD-20A1 Automatic Nozzle.jpg",
-      "static/proImages/SpareParts/60/微信图片_20190923170852.png"
-		],
-		"technicalTitle": [
-      "TD-20A1 Automatic Nozzle",
-      "Technical Specificatons",
-      "TD-20A1 Automatic nozzle is improved from TD-20A nozzle, designed with Farm&home customers in Mind, with advantage of high flow rate, easy hung.it is idea nozzle for electric transfer pump on farm and home use.",
-      "TD-20A2 Automatic nozzle is improved from TD-20A nozzle, the spout is fixed on the nozzle body with three bolts to avoid the leakage after long time service."
-    ],
-		"id": "Spare Parts",
-		"title": "TD-20A1 Automatic Nozzle",
-		"proSrc": "static/proImages/SpareParts/60/TD-20A1 Automatic Nozzle.jpg"
   }
 ]
