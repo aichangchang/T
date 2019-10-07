@@ -77,7 +77,7 @@
         systemData: [],
         FuelDispenserData: [],
         SparePartsDatas: [],
-        isActive: 0
+        isActive: 1
       }
     },
     methods:{
