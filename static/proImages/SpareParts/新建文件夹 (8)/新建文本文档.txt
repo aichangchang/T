@@ -1,5 +1,0 @@
-Gear Plate
-
-
-Technical Specificatons
-The gear plate is installed in the base of the mechanical counter to convert meter rotary shaft output to an engineered unit of measure.Changing units of measure is simple since all conversions are made with easily accessible gears.

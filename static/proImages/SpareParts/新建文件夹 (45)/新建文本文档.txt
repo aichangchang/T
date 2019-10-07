@@ -1,5 +1,0 @@
-NS-2 Nozzle Swivels
-
-
-Technical Specificatons
-NS-2 Swivels used for XIDE-80 Automatic Nozzle.
