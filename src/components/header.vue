@@ -25,6 +25,7 @@
 			display: block;
 			width: 378px;
 			height: 100%;
+			cursor: pointer;
 		}
 	}
 </style>

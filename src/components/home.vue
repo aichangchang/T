@@ -20,10 +20,12 @@
 		<div class="slider-2">
 			<swiper :options="swiperOption2" class="swiper-wrap" ref="mySwiper">
 				<swiper-slide class="clear" v-for="(item,index) in list" :key="index">
-					<img :src="item.src" alt="" />
-					<div class="left">
-						<p>{{item.tit}}</p>
-						<p>{{item.txt}}</p>
+					<img :src="item.proSrc" alt="" />
+					<div class="left" style="margin-left: 15px;">
+						<p>{{item.title}}</p>
+						<p>
+              <span v-for="(item, index) in item.technicalTitle" :key="index">{{item}}</span>
+            </p>
 					</div>
 				</swiper-slide>
 				<div class="swiper-button-prev swiper-button-prev2 swiper-button2" slot="button-prev"></div>
@@ -56,6 +58,7 @@
 	import MenuWrap from '@/components/menu.vue'
 	import FollowUs from '@/components/followus.vue'
 	import ContactCardWrap from '@/components/contact-card.vue'
+  import FuelDispenserDatas from '../../static/FuelDispenser.json';
 	export default {
 		components: {
 			MenuWrap,
@@ -70,31 +73,32 @@
 					require('../assets/images/20140215171733_682.jpg'),
 					require('../assets/images/20140215171733_682.jpg')
 				],
-				list: [{
-					src: require('../assets/images/20140320162221_516.jpg'),
-					tit: '1Economic Series',
-					txt: 'JDK50C222(2HOSES 2Pumps)External Dimension：1120x460x2100(mm)JDK50C212 (2HOSES 1Pump)External Dimension：1120x460x2100(mm)'
-				}, {
-					src: require('../assets/images/20140322140411_904.jpg'),
-					tit: '2Economic Series',
-					txt: 'JDK50C222(2HOSES 2Pumps)External Dimension：1120x460x2100(mm)JDK50C212 (2HOSES 1Pump)External Dimension：1120x460x2100(mm)'
-				}, {
-					src: require('../assets/images/20140322145250_511.jpg'),
-					tit: '3Economic Series',
-					txt: 'JDK50C222(2HOSES 2Pumps)External Dimension：1120x460x2100(mm)JDK50C212 (2HOSES 1Pump)External Dimension：1120x460x2100(mm)'
-				}, {
-					src: require('../assets/images/20140322154503_913.jpg'),
-					tit: '4Economic Series',
-					txt: 'JDK50C222(2HOSES 2Pumps)External Dimension：1120x460x2100(mm)JDK50C212 (2HOSES 1Pump)External Dimension：1120x460x2100(mm)'
-				}, {
-					src: require('../assets/images/20140322154611_661.jpg'),
-					tit: '5Economic Series',
-					txt: 'JDK50C222(2HOSES 2Pumps)External Dimension：1120x460x2100(mm)JDK50C212 (2HOSES 1Pump)External Dimension：1120x460x2100(mm)'
-				}, {
-					src: require('../assets/images/20140322155020_340.jpg'),
-					tit: '6Economic Series',
-					txt: 'JDK50C222(2HOSES 2Pumps)External Dimension：1120x460x2100(mm)JDK50C212 (2HOSES 1Pump)External Dimension：1120x460x2100(mm)'
-				}],
+				list: FuelDispenserDatas,
+    //     [{
+				// 	src: require('../assets/images/20140320162221_516.jpg'),
+				// 	tit: '1Economic Series',
+				// 	txt: 'JDK50C222(2HOSES 2Pumps)External Dimension：1120x460x2100(mm)JDK50C212 (2HOSES 1Pump)External Dimension：1120x460x2100(mm)'
+				// }, {
+				// 	src: require('../assets/images/20140322140411_904.jpg'),
+				// 	tit: '2Economic Series',
+				// 	txt: 'JDK50C222(2HOSES 2Pumps)External Dimension：1120x460x2100(mm)JDK50C212 (2HOSES 1Pump)External Dimension：1120x460x2100(mm)'
+				// }, {
+				// 	src: require('../assets/images/20140322145250_511.jpg'),
+				// 	tit: '3Economic Series',
+				// 	txt: 'JDK50C222(2HOSES 2Pumps)External Dimension：1120x460x2100(mm)JDK50C212 (2HOSES 1Pump)External Dimension：1120x460x2100(mm)'
+				// }, {
+				// 	src: require('../assets/images/20140322154503_913.jpg'),
+				// 	tit: '4Economic Series',
+				// 	txt: 'JDK50C222(2HOSES 2Pumps)External Dimension：1120x460x2100(mm)JDK50C212 (2HOSES 1Pump)External Dimension：1120x460x2100(mm)'
+				// }, {
+				// 	src: require('../assets/images/20140322154611_661.jpg'),
+				// 	tit: '5Economic Series',
+				// 	txt: 'JDK50C222(2HOSES 2Pumps)External Dimension：1120x460x2100(mm)JDK50C212 (2HOSES 1Pump)External Dimension：1120x460x2100(mm)'
+				// }, {
+				// 	src: require('../assets/images/20140322155020_340.jpg'),
+				// 	tit: '6Economic Series',
+				// 	txt: 'JDK50C222(2HOSES 2Pumps)External Dimension：1120x460x2100(mm)JDK50C212 (2HOSES 1Pump)External Dimension：1120x460x2100(mm)'
+				// }],
 				swiperOption: {
 					//循环
 					loop: true,

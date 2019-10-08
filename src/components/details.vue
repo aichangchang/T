@@ -25,15 +25,15 @@
           </p>
         </div>
         <ul v-if="this.systemData.length>0">
-          <li v-for="(item, index) in systemData" class="goods_list" :key="index">
+          <li v-for="(item, index) in systemData" class="goods_list" :key="'list1'+index">
             <img v-bind:src="item.src" />
           </li>
 			  </ul>
         <ul v-if="this.FuelDispenserSrcData.length>0" class="goods_lists">
-          <li v-for="(item, index) in FuelDispenserSrcData" class="goods_list" :key="index">
+          <li v-for="(item, index) in FuelDispenserSrcData" class="goods_list" :key="'list2'+index">
             <img v-bind:src="item" />
           </li>
-          <li v-for="(item, index) in FuelDispenserTitleData" class="goods_title" :key="index">
+          <li v-for="(item, index) in FuelDispenserTitleData" class="goods_title" :key="'list3'+index">
             <p :class="{ 'titleColor': item == 'Technical Specificatons' }">{{item}}</p>
           </li>
 			  </ul>
