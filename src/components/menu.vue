@@ -12,11 +12,13 @@
 			<li @click="toProducts" @mouseenter="flag = true" @mouseleave="flag = false">
 				Products
 				<i></i>
-				<ul v-if="flag" class="productsList">
-					<li @click="toProducts">Fuel Dispenser</li>
-					<li @click="toProducts">Spare Parts</li>
-					<li @click="toProducts">System</li>
-				</ul>
+        <ul v-if="flag" class="productsList">
+          <li v-for="(item, index) in cardLists" class="goods_list" :key="index">
+            <router-link :to="{ name: 'Products', params: { text: item.text }}">
+              <li>{{item.text}}</li>
+            </router-link>
+          </li>
+        </ul>
 			</li>
 			<li @click="toContact">
 				Contact
@@ -30,10 +32,14 @@
 	export default {
 		data() {
 			return {
-				flag: false
-
+				flag: false,
+        cardLists: [
+          { text: 'Fuel Dispenser', id: '01' },
+          { text: 'Spare Parts', id: '02' },
+          { text: 'System', id: '03' }
+        ],
 			}
-		},
+    },
 		methods: {
 			toHome: function() {
 				this.$router.push('/home')

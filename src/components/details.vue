@@ -47,13 +47,14 @@
                 <p :class="{ 'titleColor': item == 'Technical Specificatons' }">{{item}}</p>
               </li>
             </div>
+
             <div v-if="SparePartsTitle == 'FMC Series PD Rotary Vane Flow Meter' ">
               <li v-for="(item, index) in SparePartsSrcDatas" class="good_list" :key="'list2'+index">
                 <div v-if="item.substring(item.length-3) == 'jpg' || item.substring(item.length-3) == 'png'">
                   <img style="padding-top: 10px;padding-bottom: 10px;" v-bind:src="item" />
                 </div>
                 <div v-else>
-                  <p style="line-height: 21px;font-size: 13px;">{{item}}</p>
+                  <p :class="{ 'titleColor': item == 'Technical Specificatons' }" style="line-height: 21px;font-size: 13px;">{{item}}</p>
                 </div>
               </li>
             </div>
@@ -147,7 +148,6 @@
     },
     mounted(){
       this.detail = this.$route.params.detail
-      console.log(this.detail)
       this.detailGet(this.detail.id, this.detail.title)
     },
 	}
@@ -195,7 +195,7 @@
           }
         }
         .goods_lists{
-          .goods_list{
+          .good_list{
             width: 500px;
             img{
               text-align: center;
@@ -203,6 +203,30 @@
               margin: 0 auto;
               margin-top: 8px;
               border: 1px #e9e9e9 solid;
+            }
+            div{
+              img{
+                text-align: center;
+                width: 100%;
+                margin: 0 auto;
+                margin-top: 8px;
+                border: 1px #e9e9e9 solid;
+              }
+              p{
+                line-height: 16px;
+                font-size: 13px;
+              }
+              .titleColor{
+                height: 28px;
+                line-height: 28px;
+                background-color: #ff6700;
+                font-size: 18px;
+                color: #fff;
+                font-weight: bold;
+                padding-left: 8px;
+                margin-top: 30px;
+                margin-bottom: 20px;
+              }
             }
           }
           .goods_title{
@@ -226,22 +250,20 @@
           div{
             .good_title{
               margin-top: 20px;
-              div{
-                p{
-                  line-height: 16px;
-                  font-size: 13px;
-                }
-                .titleColor{
-                  height: 28px;
-                  line-height: 28px;
-                  background-color: #ff6700;
-                  font-size: 18px;
-                  color: #fff;
-                  font-weight: bold;
-                  padding-left: 8px;
-                  margin-top: 30px;
-                  margin-bottom: 20px;
-                }
+              p{
+                line-height: 16px;
+                font-size: 13px;
+              }
+              .titleColor{
+                height: 28px;
+                line-height: 28px;
+                background-color: #ff6700;
+                font-size: 18px;
+                color: #fff;
+                font-weight: bold;
+                padding-left: 8px;
+                margin-top: 30px;
+                margin-bottom: 20px;
               }
             }
           }

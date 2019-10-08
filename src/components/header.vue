@@ -19,11 +19,11 @@
 		width: 100%;
 		height: 101px;
 		overflow: hidden;
-		background: #fff;
+		background: #ff6700;
 		margin-bottom: 15px;
 		img{
 			display: block;
-			width: 378px;
+			width: 278px;
 			height: 100%;
 			cursor: pointer;
 		}

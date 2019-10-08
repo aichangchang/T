@@ -60,7 +60,7 @@
         systemData: [],
         FuelDispenserData: [],
         SparePartsDatas: [],
-        isActive: 0
+        isActive: 0,
       }
     },
     methods:{
@@ -70,7 +70,20 @@
 			toProducts:function(){
 				this.$router.push('/products')
       },
-		}
+      cardChange(text){
+        if(text == 'Fuel Dispenser'){
+          this.isActive = 0
+        }else if(text == 'Spare Parts'){
+          this.isActive = 1
+        }else if(text == 'System'){
+          this.isActive = 2
+        }
+      }
+    },
+    mounted(){
+      this.text = this.$route.params.text
+      this.cardChange(this.text)
+    },
 	}
 </script>
 
