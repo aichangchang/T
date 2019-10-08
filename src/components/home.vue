@@ -12,6 +12,7 @@
 					<swiper-slide v-for="(item,index) in banner" :key="index">
 						<img :src="item" alt="" />
 					</swiper-slide>
+					<div class="swiper-pagination"  slot="pagination"></div>
 					<div class="swiper-button-prev swiper-button-prev1 swiper-button1" slot="button-prev"></div>
 					<div class="swiper-button-next swiper-button-next1 swiper-button1" slot="button-next"></div>
 				</swiper>
@@ -194,7 +195,9 @@
 				width: 766px;
 				height: 405px;
 				overflow: hidden;
-
+        .swiper-pagination-bullet-active{
+          background:#fff;
+        }
 				.swiper-slide {
 					width: 765px;
 					height: 404px;
