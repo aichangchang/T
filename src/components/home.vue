@@ -16,6 +16,7 @@
 					<div class="swiper-button-next top40 swiper-button-next1 swiper-button1" slot="button-next"></div>
 				</swiper>
 			</div>
+
 		</div>
 		<div class="slider-2">
 			<swiper :options="swiperOption2" class="swiper-wrap" ref="mySwiper">

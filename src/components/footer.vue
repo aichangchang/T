@@ -1,9 +1,9 @@
 <template>
 	<div class="footer">
-		<div class="findus" @click="toContact">
+		<div class="findus"  @click="toContact">
 			<p>Find Us</p>
-			<p>Gaoyi Road, No.2 minor District of the Hi-Tech Park, Wenzhou Economic and Technical Development Zone, Wenzhou, Zhejiang, China</p>
-			<p>View google map</p>
+			<p>Room 1617-1618,Block A Yinfeng Commercial Bldg,No.37 Nongye Road,Jinshui District,Zhengzhou,P.R.China</p>
+			<p @click="toContact">View google map</p>
 		</div>
 	</div>
 </template>
