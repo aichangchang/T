@@ -120,7 +120,7 @@
 	},{
 			"src": [
 				"static/proImages/SpareParts/9/GL-2 Filter Holder.jpg",
-				"static/proImages/SpareParts/9/微信图片_20190921161416.jpg"
+				"static/proImages/SpareParts/9/微信图片_20190921161416.png"
 			],
 			"technicalTitle": [
 				"GL-2 Filter Holder",
@@ -160,7 +160,7 @@
 	},{
 			"src": [
 				"static/proImages/SpareParts/12/J60-A Nozzle.jpg",
-				"static/proImages/SpareParts/12/微信图片_20190921161830.jpg"
+				"static/proImages/SpareParts/12/微信图片_20190921161830.png"
 			],
 			"technicalTitle": [
 				"J60-A Nozzle",
@@ -280,12 +280,34 @@
 			"proSrc": "static/proImages/SpareParts/19/FM-120L Flow Meter.jpg"
 	},{
 			"src": [
-				"static/proImages/SpareParts/20/FMC Series PD Rotary Vane Flow Meter.jpg",
-				"static/proImages/SpareParts/20/20140425150302_558.jpg",
-				"static/proImages/SpareParts/20/20140404145831_851.jpg",
-				"static/proImages/SpareParts/20/20140404145552_373.jpg",
-				"static/proImages/SpareParts/20/20140404145644_748.jpg",
-				"static/proImages/SpareParts/20/微信图片_20190921162953.jpg"
+        "static/proImages/SpareParts/20/FMC Series PD Rotary Vane Flow Meter.jpg",
+
+        "FMC Series PD Rotary Vane Flow Meter",
+        "Technical Specificatons",
+        "Advantage:",
+        "FMC series PD rotary vane meters are single case, angle-type,rotary vane,postitve displacement meters.",
+        "Superior accuracy and a wide range of products from gasoline to kerosene to fuel oils can be metered.",
+        "Compact,versatile design can be readily fit into nearly all installations.",
+        "Low pressure drop meter results in low meter slippage and thus superior meter accuracy.",
+        "Long service life,low friction ball bearings,fixed cam-type timing,and rugged construction give sustained accuraccy and long time operation.",
+        "Construction：",
+
+        "static/proImages/SpareParts/20/20140404145552_373.jpg",
+
+        "Application:",
+        "Application includes: blenging,batching,dispengsing, inventoty control,",
+        "and custody transfer of oils,solvents, chemicals,paints,fats and fertilizers. ",
+
+        "static/proImages/SpareParts/20/20140404145644_748.jpg",
+
+        "Inlet/Outlet Position Arrangements：",
+
+        "static/proImages/SpareParts/20/20140404145831_851.jpg",
+
+        "Technical Specificatons:",
+
+        "static/proImages/SpareParts/20/微信图片_20190921162953.png",
+        "static/proImages/SpareParts/20/20140425150302_558.jpg"
 			],
 			"technicalTitle": [],
 			"id": "Spare Parts",
@@ -321,7 +343,7 @@
 				"static/proImages/SpareParts/23/HS-2A Hose Swivel.jpg",
 				"static/proImages/SpareParts/23/20140404143523_968.jpg",
 				"static/proImages/SpareParts/23/20140404143412_162.jpg",
-				"static/proImages/SpareParts/23/微信图片_20190921163507.jpg"
+				"static/proImages/SpareParts/23/微信图片_20190921163507.png"
 			],
 			"technicalTitle": [
 				"HS-2A Hose Swivel",
@@ -420,7 +442,7 @@
 	},{
 			"src": [
 				"static/proImages/SpareParts/30/JYQ Oil nozzle with meter.jpg",
-				"static/proImages/SpareParts/30/微信图片_20190921170114.jpg"
+				"static/proImages/SpareParts/30/微信图片_20190921170114.png"
 			],
 			"technicalTitle": [
 				"JYQ Oil nozzle with meter",

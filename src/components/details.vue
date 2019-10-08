@@ -3,7 +3,7 @@
 		<div class="banner clear">
 			<div class="menu-wrap">
 				<menu-wrap></menu-wrap>
-        <follow-us></follow-us>
+        <!-- <follow-us></follow-us> -->
 				<div style="margin-top: 20px;">
 					<contact-card-wrap></contact-card-wrap>
 				</div>
@@ -29,22 +29,36 @@
             <img v-bind:src="item.src" />
           </li>
 			  </ul>
-        <ul v-if="this.FuelDispenserSrcData.length>0" class="goods_lists">
-          <li v-for="(item, index) in FuelDispenserSrcData" class="goods_list" :key="'list2'+index">
+        <ul v-if="this.FuelDispenserSrcDatas.length>0" class="goods_lists">
+          <li v-for="(item, index) in FuelDispenserSrcDatas" class="goods_list" :key="index">
             <img v-bind:src="item" />
           </li>
-          <li v-for="(item, index) in FuelDispenserTitleData" class="goods_title" :key="'list3'+index">
+          <li v-for="(item, index) in FuelDispenserTitleDatas" class="goods_title" :key="index">
             <p :class="{ 'titleColor': item == 'Technical Specificatons' }">{{item}}</p>
           </li>
 			  </ul>
-        <ul v-if="this.SparePartsSrcDatas.length>0" class="goods_lists">
-          <li v-for="(item, index) in SparePartsSrcDatas" class="goods_list" :key="index">
-            <img v-bind:src="item" />
-          </li>
-          <li v-for="(item, index) in SparePartsSrcTitleDatas" class="goods_title" :key="index">
-            <p :class="{ 'titleColor': item == 'Technical Specificatons' }">{{item}}</p>
-          </li>
-			  </ul>
+        <div v-if="this.SparePartsSrcDatas.length>0">
+          <ul class="goods_lists">
+            <div v-if="SparePartsTitle !== 'FMC Series PD Rotary Vane Flow Meter'">
+              <li v-for="(item, index) in SparePartsSrcDatas" class="good_list" :key="'list2'+index">
+                <img v-bind:src="item" />
+              </li>
+              <li v-for="(item, index) in SparePartsTitleDatas" class="good_title" :key="'list3'+index">
+                <p :class="{ 'titleColor': item == 'Technical Specificatons' }">{{item}}</p>
+              </li>
+            </div>
+            <div v-if="SparePartsTitle == 'FMC Series PD Rotary Vane Flow Meter' ">
+              <li v-for="(item, index) in SparePartsSrcDatas" class="good_list" :key="'list2'+index">
+                <div v-if="item.substring(item.length-3) == 'jpg' || item.substring(item.length-3) == 'png'">
+                  <img style="padding-top: 10px;padding-bottom: 10px;" v-bind:src="item" />
+                </div>
+                <div v-else>
+                  <p style="line-height: 21px;font-size: 13px;">{{item}}</p>
+                </div>
+              </li>
+            </div>
+          </ul>
+        </div>
 			</div>
 		</div>
 	</div>
@@ -71,10 +85,12 @@
           { text: 'System', id: '03' }
         ],
         systemData: [],
-        FuelDispenserSrcData: [],
-        FuelDispenserTitleData: [],
-        SparePartsSrcTitleDatas: [],
+        FuelDispenserTitleDatas: [],
+        FuelDispenserSrcDatas: [],
+        SparePartsDatas: [],
+        SparePartsTitle: '1',
         SparePartsSrcDatas: [],
+        SparePartsTitleDatas: [],
         isActive: 0,
       }
     },
@@ -88,10 +104,12 @@
       detailGet(id, title){
         if(id == 'System'){
           this.systemData = [];
-          this.FuelDispenserSrcData = [];
-          this.FuelDispenserTitleData = [];
-          this.SparePartsSrcTitleDatas = [];
-          this.SparePartsSrcDatas = [];
+          this.FuelDispenserTitleDatas = [];
+          this.FuelDispenserSrcDatas = [];
+          this.SparePartsDatas = [];
+          this.SparePartsTitle = '1',
+          this.SparePartsSrcDatas=[];
+          this.SparePartsTitleDatas=[];
           if(title == 'Central Control System'){
             this.systemData = systemDatas.CentralControlSystem
           }else if(title == 'Tank Monitor System'){
@@ -99,26 +117,29 @@
           }
         }else if(id == 'Fuel Dispenser'){
           this.systemData = [];
-          this.FuelDispenserSrcData = [];
-          this.FuelDispenserTitleData = [];
-          this.SparePartsSrcTitleDatas = [];
-          this.SparePartsSrcDatas = [];
+          this.FuelDispenserTitleDatas = [];
+          this.FuelDispenserSrcDatas = [];
+          this.SparePartsTitle = '1',
+          this.SparePartsSrcDatas=[];
+          this.SparePartsTitleDatas=[];
           FuelDispenserDatas.map((item, index)=>{
             if(item.title == title){
-              this.FuelDispenserSrcData = item.src
-              this.FuelDispenserTitleData = item.technicalTitle
+              this.FuelDispenserTitleDatas = item.technicalTitle
+              this.FuelDispenserSrcDatas = item.src
             }
           })
         }else if(id == 'Spare Parts'){
           this.systemData = [];
-          this.FuelDispenserSrcData = [];
-          this.FuelDispenserTitleData = [];
-          this.SparePartsSrcTitleDatas = [];
-          this.SparePartsSrcDatas = [];
+          this.FuelDispenserTitleDatas = [];
+          this.FuelDispenserSrcDatas = [];
+          this.SparePartsTitle = '1',
+          this.SparePartsSrcDatas=[];
+          this.SparePartsTitleDatas=[];
           SparePartsData.map((item, index)=>{
             if(item.title == title){
               this.SparePartsSrcDatas = item.src
-              this.SparePartsSrcTitleDatas = item.technicalTitle
+              this.SparePartsTitleDatas = item.technicalTitle
+              this.SparePartsTitle = item.title
             }
           })
         }
@@ -137,13 +158,13 @@
 		width: 100%;
 		.menu-wrap{
 			float: left;
-			width: 184px;
+			width: 243px;
 		}
 		.banner {
 			width: 100%;
 			.slider {
 				float: right;
-				width: 766px;
+				width: 707px;
         padding: 0 30px;
         padding-bottom: 20px;
         background-color: #fff;
@@ -158,7 +179,7 @@
               cursor: pointer;
             }
             span:hover{
-              color: red;
+              color: #ff6700;
             }
           }
         }
@@ -193,13 +214,35 @@
             .titleColor{
               height: 28px;
               line-height: 28px;
-              background-color: #db261f;
+              background-color: #ff6700;
               font-size: 18px;
               color: #fff;
               font-weight: bold;
               padding-left: 8px;
               margin-top: 30px;
               margin-bottom: 20px;
+            }
+          }
+          div{
+            .good_title{
+              margin-top: 20px;
+              div{
+                p{
+                  line-height: 16px;
+                  font-size: 13px;
+                }
+                .titleColor{
+                  height: 28px;
+                  line-height: 28px;
+                  background-color: #ff6700;
+                  font-size: 18px;
+                  color: #fff;
+                  font-weight: bold;
+                  padding-left: 8px;
+                  margin-top: 30px;
+                  margin-bottom: 20px;
+                }
+              }
             }
           }
         }

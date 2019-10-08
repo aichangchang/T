@@ -36,7 +36,7 @@
 			clickCallback:function(pageNum){
 				var that = this;
 				if(pageNum <= that.total_page){
-					console.log(pageNum) 	
+					console.log(pageNum)
 					var startIndex = pageNum*that.limit - that.limit;
 					var endIndex = pageNum*that.limit>that.FuelDispenserDataAll.length?that.FuelDispenserDataAll.length:pageNum*that.limit;
 					console.log(startIndex +'---'+endIndex)
@@ -66,7 +66,7 @@
 	  padding-top: 3px;
 	  margin-top: 2px;
 	  float: left;
-	  width: 227px;
+	  width: 207px;
 	  margin-right: 8px;
 	  margin-bottom: 8px;
 	  overflow: hidden;
@@ -77,8 +77,8 @@
 	      overflow: hidden;
 	      img {
 	        border: 1px #e9e9e9 solid;
-	        width: 224px;
-	        height: 275px;
+	        width: 204px;
+	        height: 245px;
 	      }
 	    }
 	  }

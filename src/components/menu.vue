@@ -12,11 +12,11 @@
 			<li @click="toProducts" @mouseenter="flag = true" @mouseleave="flag = false">
 				Products
 				<i></i>
-				<div v-if="flag" class="productsList">
-					<p @click="toProducts">Fuel Dispenser</p>
-					<p @click="toProducts">Spare Parts</p>
-					<p @click="toProducts">System</p>
-				</div>
+				<ul v-if="flag" class="productsList">
+					<li @click="toProducts">Fuel Dispenser</li>
+					<li @click="toProducts">Spare Parts</li>
+					<li @click="toProducts">System</li>
+				</ul>
 			</li>
 			<li @click="toContact">
 				Contact
@@ -59,19 +59,17 @@
 		width: 100%;
 		.menu-item {
 			width: 100%;
-			background-color: #454545;
-
+			background-color:rgba(105,101,101,.6);
 			li {
 				display: block;
-				height: 53px;
-				line-height: 52px;
+				height: 56px;
+				line-height: 55px;
 				font-size: 14px;
 				padding-left: 20px;
 				text-transform: uppercase;
 				color: #fff;
 				cursor: pointer;
 				position: relative;
-
 				i {
 					position: absolute;
 					top: 21px;
@@ -84,30 +82,39 @@
 				}
 			}
 
-			li:nth-child(even) {
-				background: url(../assets/images/li.jpg) no-repeat left top;
-				background-size: 100% 100%;
-			}
+			// li:nth-child(even) {
+			// 	background: url(../assets/images/li.jpg) no-repeat left top;
+			// 	background-size: 100% 100%;
+			// }
 
 			li:hover {
-				background: #db261f;
+        background: #ff6700;
+        color: #fff
 			}
 
 			.productsList {
 				position: absolute;
-				left: 184px;
-				top: 0;
-				width: 100%;
+				left: 243px;
+				top: -115px;
+        width: 300px;
+        height: 380px;
 				z-index: 99999999;
-				background: #db261f;
-				padding: 10px 15px;
-				p {
-					line-height: 30px;
+				background: #fff;
+				padding: 0 15px;
+				li {
 					width: 100%;
 					font-size: 12px;
 					padding-left: 20px;
-					color: #fff;
-				}
+          color: #000;
+          height: 46px;
+          line-height: 46px;
+          text-transform: uppercase;
+          cursor: pointer;
+        }
+        li:hover {
+          background: #ff6700;
+          color: #fff
+        }
 			}
 		}
 	}

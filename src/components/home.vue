@@ -3,33 +3,35 @@
 		<div class="banner clear">
 			<div class="menu-wrap">
 				<menu-wrap></menu-wrap>
-				<div style="margin-top: 130px;">
+				<!-- <div style="margin-top: 130px;">
 					<follow-us></follow-us>
-				</div>
+				</div> -->
 			</div>
 			<div class="slider">
 				<swiper :options="swiperOption" class="swiper-wrap" ref="mySwiper">
-					<swiper-slide v-for="(item,index) in banner" :key="index">
+					<swiper-slide class="border" v-for="(item,index) in banner" :key="index">
 						<img :src="item" alt="" />
 					</swiper-slide>
-					<div class="swiper-button-prev swiper-button-prev1 swiper-button1" slot="button-prev"></div>
-					<div class="swiper-button-next swiper-button-next1 swiper-button1" slot="button-next"></div>
+					<div class="swiper-button-prev top40 swiper-button-prev1 swiper-button1" slot="button-prev"></div>
+					<div class="swiper-button-next top40 swiper-button-next1 swiper-button1" slot="button-next"></div>
 				</swiper>
 			</div>
 		</div>
 		<div class="slider-2">
 			<swiper :options="swiperOption2" class="swiper-wrap" ref="mySwiper">
-				<swiper-slide class="clear" v-for="(item,index) in list" :key="index">
-					<img :src="item.proSrc" alt="" />
-					<div class="left" style="margin-left: 15px;">
-						<p>{{item.title}}</p>
-						<p>
-              <span v-for="(item, index) in item.technicalTitle" :key="index">{{item}}</span>
-            </p>
-					</div>
+				<swiper-slide class="clear border" v-for="(item,index) in list" :key="index">
+          <router-link :to="{ name: 'Details', params: { detail: item }}">
+            <img :src="item.proSrc" alt="" />
+            <div class="left" style="margin-left: 15px;">
+              <p>{{item.title}}</p>
+              <p>
+                <span v-for="(item, index) in item.technicalTitle" :key="index">{{item}}</span>
+              </p>
+            </div>
+          </router-link>
 				</swiper-slide>
-				<div class="swiper-button-prev swiper-button-prev2 swiper-button2" slot="button-prev"></div>
-				<div class="swiper-button-next swiper-button-next2 swiper-button2" slot="button-next"></div>
+				<div class="swiper-button-prev top40 swiper-button-prev2 swiper-button2" slot="button-prev"></div>
+				<div class="swiper-button-next top40 swiper-button-next2 swiper-button2" slot="button-next"></div>
 			</swiper>
 		</div>
 		<div class="can clear">
@@ -37,19 +39,17 @@
 				<contact-card-wrap></contact-card-wrap>
 			</div>
 			<div class="aboutus-wrap">
-				<div class="tit">
+				<div class="tit" @click="toAboutUs">
 					<p>ABOUT US</p>
-					<p @click="toAboutUs"></p>
 				</div>
-				<img class="img1" src="../assets/images/index_r22_c15.jpg" alt="">
+				<!-- <img class="img1" src="../assets/images/index_r22_c15.jpg" alt=""> -->
 				<p class="des">"TRIDENT TECKNO" is a registered trademark of Henan V.Giant Machinery and Equipment Co.,Ltd , Henan V.Giant is one of the large-scale manufacturers specialized in developing and producing high quality fuel dispenser and accessory spare parts.Our products cover:Automatic Nozzles;Dispensers;Hose for Dispensers;Pumping unit;Flowmeter etc,provides the whole fuel dispenser and the necessary parts to domestic and international fuel dispenser manufactory and gas station for a long time.</p>
 			</div>
 			<div class="aboutus-wrap" style="margin: 0;">
-				<div class="tit">
+				<div class="tit" @click="toContact">
 					<p>NETWORK</p>
-					<p @click="toContact"></p>
 				</div>
-				<img class="img2" src="../assets/images/index_r22_c24.jpg" alt="">
+				<img class="img2" src="../assets/images/a.png" alt="">
 			</div>
 		</div>
 	</div>
@@ -186,19 +186,24 @@
 
 			.menu-wrap {
 				float: left;
-				width: 184px;
+				width: 243px;
 			}
 
 			.slider {
 				float: right;
-				width: 766px;
-				height: 405px;
-				overflow: hidden;
+				width: 707px;
+				height: 375px;
+        overflow: hidden;
+
+        .swiper-wrap {
+          .border{
+            border-top: 1px solid #ff6700
+          }
+        }
 
 				.swiper-slide {
 					width: 765px;
-					height: 404px;
-
+          height: 404px;
 					img {
 						width: 100%;
 						height: 100%;
@@ -213,8 +218,8 @@
 					background-repeat: no-repeat;
 					outline: 0;
 					cursor: pointer;
-					filter: alpha(opacity=30);
-					opacity: .3;
+					filter: alpha(opacity=20);
+					opacity: .2;
 				}
 
 				.swiper-button-prev1 {
@@ -249,13 +254,18 @@
 
 		.slider-2 {
 			width: 100%;
-			height: 185px;
+			height: 205px;
 			background-color: #fff;
 			overflow: hidden;
 			margin-top: 20px;
 
 			.swiper-wrap {
-				height: 100%;
+        height: 100%;
+        .border{
+          // border-top: 1px solid #ff6700;
+          border-right: 10px solid #f5f5f5;
+          // border-left: 1px solid #ff6700;
+        }
 			}
 
 			.swiper-button2 {
@@ -273,7 +283,6 @@
 			}
 
 			.swiper-button-prev2:hover {}
-
 			.swiper-button-next2 {
 				background-image: url(../assets/images/allbgs.png);
 				background-position: 0 -170px;
@@ -344,7 +353,9 @@
 					height: 40px;
 					padding: 0 15px;
 					line-height: 40px;
-
+          background-color: #ff6700;
+          color: #fff;
+          cursor: pointer;
 					p:nth-child(1) {
 						float: left;
 						font-size: 14px;
@@ -358,8 +369,8 @@
 						background-position: 0px -7px;
 						height: 11px;
 						padding-left: 14px;
-						background-image: url(../assets/images/allbgs.png);
-						background-repeat: no-repeat;
+						// background-image: url(../assets/images/allbgs.png);
+						// background-repeat: no-repeat;
 					}
 				}
 
@@ -372,8 +383,8 @@
 				.des {
 					width: 100%;
 					padding: 15px;
-					line-height: 18px;
-					font-size: 12px;
+					line-height: 26px;
+          font-size: 12px;
 				}
 
 				.img2 {

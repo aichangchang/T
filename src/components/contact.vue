@@ -3,7 +3,7 @@
 		<div class="banner clear">
 			<div class="menu-wrap">
 				<menu-wrap></menu-wrap>
-				<follow-us></follow-us>
+				<!-- <follow-us></follow-us> -->
 				<div style="margin-top: 20px;">
 					<contact-card-wrap></contact-card-wrap>
 				</div>
@@ -15,23 +15,22 @@
           </span>
           <span>»</span>
           <span @click="toContact">
-            Contact
+              Contact
           </span>
         </p>
-				<img class="b1" src="../assets/images/6.jpg" alt="">
+				<!-- <img class="b1" src="../assets/images/6.jpg" alt=""> -->
 				<div class="desc">
 					<p class="t1">HenanV.Giant Machinery and Equipment Co.,Ltd.</p>
-					</p>
 					<p class="t2">
-						<span>Tel</span>
+						<span style="line-height: 32px;">Tel:</span>
 						<span>+86 13607663327</span>
 					</p>
 					<p class="t2">
-						<span>Email</span>
+						<span style="line-height: 32px;">Email:</span>
 						<span>tridentteckno@sina.com</span>
 					</p>
 					<p class="t2">
-						<span style="line-height: 40px;">Address</span>
+						<span style="line-height: 40px;">Address:</span>
 						<span>Room 1617-1618,Block A Yinfeng Commercial Bldg,No.37 Nongye Road,Jinshui District,Zhengzhou,P.R.China</span>
 					</p>
 				</div>
@@ -68,7 +67,7 @@
 
 		.menu-wrap {
 			float: left;
-			width: 184px;
+			width: 243px;
 		}
 
 		.banner {
@@ -76,7 +75,7 @@
 
 			.slider {
 				float: right;
-				width: 766px;
+				width: 707px;
 				min-height: 635px;
 				background: #fff;
 				padding: 0 30px 20px;
@@ -86,13 +85,13 @@
 					height: 46px;
 					line-height: 46px;
 					color: #999;
-          border-bottom: 1px #db261f solid;
+          border-bottom: 1px #ff6700 solid;
           font-size: 13px;
           span{
             cursor: pointer;
           }
           span:hover{
-            color: red;
+            color: #ff6700;
           }
 				}
 				.b1{
@@ -118,7 +117,7 @@
 					padding-top: 15px;
 					.t1{
 						font-weight: bold;
-						line-height: 36px;
+						line-height: 40px;
 						font-size: 20px;
 					}
 					.t2{

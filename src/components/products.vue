@@ -3,7 +3,7 @@
 		<div class="banner clear">
 			<div class="menu-wrap">
 				<menu-wrap></menu-wrap>
-				<follow-us></follow-us>
+				<!-- <follow-us></follow-us> -->
 				<div style="margin-top: 20px;">
 					<contact-card-wrap></contact-card-wrap>
 				</div>
@@ -37,7 +37,7 @@
   import MenuWrap from '@/components/menu.vue'
 	import FollowUs from '@/components/followus.vue'
   import ContactCardWrap from '@/components/contact-card.vue'
-  
+
   import FuelDispenserDatasWrap from '@/components/fuel-dispenser-data.vue'
   import SparePartsDataWrap from '@/components/spare-parts-data.vue';
   import systemDatasWrap from '@/components/system-datas.vue';
@@ -79,13 +79,13 @@
 		width: 100%;
 		.menu-wrap{
 			float: left;
-			width: 184px;
+			width: 243px;
     }
 		.banner {
       width: 100%;
 			.slider {
 				float: right;
-				width: 766px;
+				width: 707px;
         padding: 0 30px;
         padding-bottom: 20px;
         background-color: #fff;
@@ -100,7 +100,7 @@
               cursor: pointer;
             }
             span:hover{
-              color: red;
+              color: #ff6700;
             }
           }
         }
@@ -111,8 +111,8 @@
             float: left;
             margin-right: 10px;
             display: inline;
-            width: 224px;
-            background: #454545;
+            width: 204px;
+            background: rgba(105,101,101,.6);
             line-height: 36px;
             cursor: pointer;
             span{
@@ -124,7 +124,7 @@
             }
           }
           .active{
-            background: red;
+            background: #ff6700;
             color: #fff;
           }
         }

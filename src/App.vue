@@ -162,14 +162,14 @@
 		}
 		li:hover{
 			text-decoration: none;
-			border-color: #db261f;
-			background-color: #db261f;
+			border-color: #ff6700;
+			background-color: #ff6700;
 			color: #ffffff;
 		}
 		.active{
 			text-decoration: none;
-			border-color: #db261f;
-			background-color: #db261f;
+			border-color: #ff6700;
+			background-color: #ff6700;
 			color: #ffffff;
 		}
 	}

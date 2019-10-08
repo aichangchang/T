@@ -38,7 +38,7 @@
 					</p>
 					<p class="t2">
 						<span>Admin</span>
-						<span>chinalanfeng@vip.sina.com</span>
+						<span>tridentteckno@sina.com</span>
 					</p>
 					<p class="t2">
 						<span>Sale department</span>
