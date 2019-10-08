@@ -12,6 +12,7 @@
 					<swiper-slide class="border" v-for="(item,index) in banner" :key="index">
 						<img :src="item" alt="" />
 					</swiper-slide>
+          <div class="swiper-pagination"  slot="pagination"></div>
 					<div class="swiper-button-prev top40 swiper-button-prev1 swiper-button1" slot="button-prev"></div>
 					<div class="swiper-button-next top40 swiper-button-next1 swiper-button1" slot="button-next"></div>
 				</swiper>
@@ -71,35 +72,12 @@
 			return {
 				imgIndex: 1,
 				banner: [
-					require('../assets/images/20140215171733_682.jpg'),
-					require('../assets/images/20140215171733_682.jpg')
+					require('../assets/images/lb0.jpg'),
+					require('../assets/images/lb1.jpg'),
+					require('../assets/images/lb2.jpg'),
+					require('../assets/images/lb3.png')
 				],
 				list: FuelDispenserDatas,
-    //     [{
-				// 	src: require('../assets/images/20140320162221_516.jpg'),
-				// 	tit: '1Economic Series',
-				// 	txt: 'JDK50C222(2HOSES 2Pumps)External Dimension：1120x460x2100(mm)JDK50C212 (2HOSES 1Pump)External Dimension：1120x460x2100(mm)'
-				// }, {
-				// 	src: require('../assets/images/20140322140411_904.jpg'),
-				// 	tit: '2Economic Series',
-				// 	txt: 'JDK50C222(2HOSES 2Pumps)External Dimension：1120x460x2100(mm)JDK50C212 (2HOSES 1Pump)External Dimension：1120x460x2100(mm)'
-				// }, {
-				// 	src: require('../assets/images/20140322145250_511.jpg'),
-				// 	tit: '3Economic Series',
-				// 	txt: 'JDK50C222(2HOSES 2Pumps)External Dimension：1120x460x2100(mm)JDK50C212 (2HOSES 1Pump)External Dimension：1120x460x2100(mm)'
-				// }, {
-				// 	src: require('../assets/images/20140322154503_913.jpg'),
-				// 	tit: '4Economic Series',
-				// 	txt: 'JDK50C222(2HOSES 2Pumps)External Dimension：1120x460x2100(mm)JDK50C212 (2HOSES 1Pump)External Dimension：1120x460x2100(mm)'
-				// }, {
-				// 	src: require('../assets/images/20140322154611_661.jpg'),
-				// 	tit: '5Economic Series',
-				// 	txt: 'JDK50C222(2HOSES 2Pumps)External Dimension：1120x460x2100(mm)JDK50C212 (2HOSES 1Pump)External Dimension：1120x460x2100(mm)'
-				// }, {
-				// 	src: require('../assets/images/20140322155020_340.jpg'),
-				// 	tit: '6Economic Series',
-				// 	txt: 'JDK50C222(2HOSES 2Pumps)External Dimension：1120x460x2100(mm)JDK50C212 (2HOSES 1Pump)External Dimension：1120x460x2100(mm)'
-				// }],
 				swiperOption: {
 					//循环
 					loop: true,
@@ -156,7 +134,7 @@
 					//小手掌抓取滑动
 					grabCursor: false,
 					centeredSlides: false,
-					spaceBetween: 0,
+					spaceBetween: 10,
 					navigation: {
 						nextEl: '.swiper-button-next',
 						prevEl: '.swiper-button-prev'
@@ -204,7 +182,7 @@
 
 				.swiper-slide {
 					width: 765px;
-          height: 404px;
+          height: 375px;
 					img {
 						width: 100%;
 						height: 100%;
@@ -256,15 +234,18 @@
 		.slider-2 {
 			width: 100%;
 			height: 205px;
-			background-color: #fff;
+			background-color: #f5f5f5;
 			overflow: hidden;
 			margin-top: 20px;
 
 			.swiper-wrap {
         height: 100%;
+        .swiper-slide{
+          background: #FFFFFF;
+        }
         .border{
           // border-top: 1px solid #ff6700;
-          border-right: 10px solid #f5f5f5;
+          // border-right: 10px solid #f5f5f5;
           // border-left: 1px solid #ff6700;
         }
 			}

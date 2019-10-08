@@ -173,4 +173,11 @@
 			color: #ffffff;
 		}
 	}
+  // 轮播图底部点的颜色
+  .swiper-pagination{
+    .swiper-pagination-bullet-active{
+      opacity: 0.9;
+      background: #ff6700;
+    }
+  }
 </style>
